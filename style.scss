@@ -1,0 +1,571 @@
+@import "compass/css3";
+
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+/* animation */
+@mixin animate($animation-name, $time, $style) {
+	-webkit-animation: $animation-name $time $style;
+	-moz-animation: $animation-name $time $style;
+	-o-animation: $animation-name $time $style;
+	animation: $animation-name $time $style;
+}
+
+@mixin keyframe-icon-bounce {
+	0%,
+	100% {
+		@include transform(rotate(0deg));
+	}
+	25% {
+		@include transform(rotate(15deg));
+	}
+	50% {
+		@include transform(rotate(-15deg));
+	}
+	75% {
+		@include transform(rotate(5deg));
+	}
+	85% {
+		@include transform(rotate(-5deg));
+	}
+}
+
+@keyframes icon-bounce {
+	@include keyframe-icon-bounce;
+}
+@-webkit-keyframes icon-bounce {
+	@include keyframe-icon-bounce;
+}
+@-moz-keyframes icon-bounce {
+	@include keyframe-icon-bounce;
+}
+@-o-keyframes icon-bounce {
+	@include keyframe-icon-bounce;
+}
+
+@mixin section-padding {
+	padding: 3vh 0;
+	@media (min-width: 400px) {
+		// I'd prefer this to be the $md Bootstrap grid variable
+		padding: 3vh 0;
+	}
+}
+
+/*START*/
+
+body {
+	font-family: "Ropa Sans", sans-serif;
+	color: #333333;
+	font-size: 18px;
+	line-height: 1.25;
+	background-color: #f4eedf;
+	background: radial-gradient(#f4eedf 15%, transparent 10%) 0 0,
+		radial-gradient(#dbcca9 10%, transparent 10%) 8px 8px,
+		radial-gradient(#dbcca9 10%, transparent 10%) 0 0px,
+		radial-gradient(#dbcca9 10%, transparent 10%) 8px 8px;
+	background-color: #f4eedf;
+	/*   background-color: rgb(60, 151, 100); */
+	background-size: 3px 3px;
+	justify-content: center;
+}
+
+h1 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.55;
+
+	color: #3a3630;
+}
+
+h2 {
+	display: inline;
+
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 26px;
+	line-height: 1.15;
+	font-weight: 600;
+
+	border-bottom: 1px dashed #333333;
+	text-shadow: 0px 2px 0px #b74720;
+	text-shadow: 0 2px 1px #b74720;
+
+	color: #f5ab50;
+}
+
+h3 {
+	font-family: "Caveat", cursive;
+	display: inline;
+
+	font-size: 36px;
+	line-height: 1.15;
+	font-weight: 600;
+	color: #333333;
+}
+
+h4 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 15px;
+	float: left;
+	line-height: 1.55;
+	color: #333333;
+}
+
+h5 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.55;
+	text-align: center;
+	color: #f4eedf;
+}
+
+h6 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.55;
+	text-align: left;
+
+	color: #f4eedf;
+}
+
+h7 {
+	font-family: "Caveat", cursive;
+	font-size: 36px;
+	font-size: 36px;
+	line-height: 0.75;
+	font-weight: 600;
+	border-bottom: 0px dashed #f5ab40;
+
+	color: #f4eedf;
+}
+
+h8 {
+	font-family: "Caveat", cursive;
+	font-size: 28px;
+	line-height: 1;
+	font-weight: 600;
+
+	color: #f5ab40;
+}
+
+h9 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 30px;
+	line-height: 1.55;
+	font-weight: 600;
+	border-top: 1px dashed #333333;
+	border-bottom: 1px dashed #333333;
+
+	text-shadow: 0 2px 0 #333333;
+	color: #f4eedf;
+}
+
+
+h10 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.55;
+
+	color: #f5ab40;
+}
+
+p {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.55;
+	color: #f4eedf;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+	color: #f4eedf;
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-nav .nav-link:hover {
+	color: #f5ab40;
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 5px;
+}
+
+.navbar-toggler-icon {
+	padding-bottom: 5px;
+}
+
+.btn-success {
+	color: #333333;
+	font-family: "Ropa Sans", sans-serif;
+	background-color: #f4eedf;
+	border-color: #f4eedf;
+
+	padding: 10px;
+}
+
+.enableEthereumButton {
+	color: #333333;
+	font-family: "Ropa Sans", sans-serif;
+	background-color: #f5ab40;
+	border-color: #f5ab40;
+	padding: 10px;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #333333;
+	border-color: #333333;
+}
+
+.btn-primary {
+	color: #333333;
+	font-family: "Ropa Sans", sans-serif;
+	background-color: #f4eedf;
+	border-color: #f4eedf;
+	padding: 10px;
+}
+
+.btn {
+	display: inline-block;
+
+	height: 32px;
+	font-weight: 600;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 0px solid transparent;
+	padding: 0.35rem 1rem;
+	font-size: 1rem;
+	border-radius: 5rem;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+btn:hover {
+	color: #fff;
+	background-color: #222;
+}
+
+.bg-inverse {
+	height: 70px;
+	font-family: "Ropa Sans", sans-serif;
+	padding: 5px;
+	border-bottom: 3px solid #333333;
+	color: #333333;
+	background: #333333 !important ;
+}
+
+.navbar-toggler {
+	position: fixed;
+	float: right;
+	right: 1rem;
+	bottom: 1rem;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+	display: block;
+	padding: 8px;
+	max-width: 100%;
+	background: #333333;
+}
+
+.clickbait0 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	color: #333333;
+	padding: 20px;
+	text-align: left;
+	background: radial-gradient(#f4eedf 15%, transparent 10%) 0 0,
+		radial-gradient(#dbcca9 10%, transparent 10%) 8px 8px,
+		radial-gradient(#dbcca9 10%, transparent 10%) 0 0px,
+		radial-gradient(#dbcca9 10%, transparent 10%) 8px 8px;
+	background-color: #f4eedf;
+	/*   background-color: rgb(60, 151, 100); */
+	background-size: 3px 3px;
+	justify-content: center;
+		border-bottom: 0.5px dashed #333333;
+	border-top: 0.5px dashed #333333;
+}
+
+.clickbait {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	color: #f4eedf;
+	padding: 20px;
+	text-align: left;
+	background-color: #f5ab40;
+	background: radial-gradient(#ce8628 15%, transparent 10%) 0 0,
+		radial-gradient(#ce8628 10%, transparent 10%) 8px 8px,
+		radial-gradient(#ce8628 10%, transparent 10%) 0 0px,
+		radial-gradient(#ce8628 10%, transparent 10%) 8px 8px;
+	background-color: #f5ab40;
+	/*   background-color: rgb(60, 151, 100); */
+	background-size: 3px 3px;
+		border-bottom: 0.5px dashed #333333;
+	border-top: 0.5px dashed #333333;
+}
+
+.clickbait2 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	color: #f4eedf;
+	padding: 20px;
+	text-align: left;
+	background-color: #333333;
+}
+
+.clickbait3 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	color: #f4eedf;
+	padding: 20px;
+	text-align: left;
+	background-color: #333333;
+}
+
+.clickbait4 {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	color: #f4eedf;
+	padding: 20px;
+	text-align: left;
+	background-color: #f5ab40;
+}
+
+.clickbait5 {
+	justify-content: center;
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 14px;
+	color: #f4eedf;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 0.5px dashed #333333;
+	border-top: 0.5px dashed #333333;
+	background-color: #f5ab40;
+	background: radial-gradient(#ce8628 15%, transparent 10%) 0 0,
+		radial-gradient(#ce8628 10%, transparent 10%) 8px 8px,
+		radial-gradient(#ce8628 10%, transparent 10%) 0 0px,
+		radial-gradient(#ce8628 10%, transparent 10%) 8px 8px;
+	background-color: #f5ab40;
+	/*   background-color: rgb(60, 151, 100); */
+	background-size: 3px 3px;
+}
+
+/*COLUMN STRUCTURE */
+
+.wrapper {
+	padding: 15px;
+	max-width: 980px;
+	width: 100%;
+	margin: 10px auto;
+	justify-content: center;
+}
+header {
+	padding: 0 15px;
+	text-align: left;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	border: 0px solid gray;
+	margin: 2px;
+	padding: 20px;
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.column1 {
+	flex: 1;
+	display: block;
+	margin: 2px;
+	padding: 20px;
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.footer {
+	font-family: "Ropa Sans", sans-serif;
+	font-size: 16px;
+	padding: 15px;
+	line-height: 1.25;
+	font-weight: 600;
+	color: #333333;
+	text-align: center;
+}
+
+@media screen and (max-width: 1280px) {
+	.columns .column {
+		margin-bottom: 5px;
+		flex-basis: 40%;
+		&:nth-last-child(2) {
+			margin-right: 0;
+		}
+		&:last-child {
+			flex-basis: 100%;
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
+
+/*END COLUMN STRUCTURE */
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--card-size: 200px;
+}
+
+.card {
+	width: calc(var(--card-size) * 1.586);
+	height: var(--card-size);
+
+	border-radius: 0.35rem;
+	box-shadow: 0 0px 100px 0 #222222, 0 0px 0px 0 #222222;
+	border: 3px solid #f4eedf;
+
+	background: #f4eedf;
+	background-image: url("");
+
+	display: grid;
+	grid-template-columns: 35% auto;
+	color: #333333;
+
+	align-items: left;
+
+	will-change: transform;
+	transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+		box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover {
+		transform: scale(1.05);
+		box-shadow: 0 32px 80px 14px #1e1e1e, 0 0 0 1px #1e1e1e(0, 0, 0, 0.3);
+	}
+}
+
+.card-details {
+	padding: 1px;
+
+	font-size: 0.75rem;
+	margin: 1px;
+}
+
+.name {
+	display: flex;
+	flex-direction: column;
+
+	font-weight: 600;
+	margin-top: 0.25rem;
+	font-size: 1rem;
+	border-bottom: 0.5px dashed #333333;
+}
+
+.occupation {
+	display: flex;
+	flex-direction: column;
+
+	font-weight: 400;
+	color: #505050;
+}
+
+.card-avatar {
+	size: 90%;
+	border-radius: 0.2rem;
+	padding: 1px;
+	font-size: 1.9rem;
+	margin: 1px;
+	display: grid;
+	grid-auto-flow: row;
+	opacity: 100%;
+	color: #31352f;
+	place-items: center;
+	font-family: "Caveat", cursive;
+}
+
+svg {
+	width: 65%;
+}
+
+.card-about {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.2rem;
+	display: grid;
+	grid-auto-flow: column;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.25rem;
+	padding: 2px;
+
+	.value {
+		font-size: 0.75rem;
+	}
+
+	.label {
+		margin-top: 0.15rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		padding: 2px;
+		opacity: 70%;
+
+		color: #333333;
+	}
+}
+
+.skills {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.15rem;
+
+	.label {
+		border-bottom: 0.5px dashed #333333;
+		padding: 2px;
+		opacity: 70%;
+
+		font-size: 0.75rem;
+		font-weight: 600;
+		color: #333333;
+	}
+
+	.value {
+		margin-top: 0.15rem;
+		font-size: 0.75rem;
+		font-style: italic;
+
+		line-height: 0.75rem;
+	}
+}
