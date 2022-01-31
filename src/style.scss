@@ -50,12 +50,20 @@
 	}
 }
 
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--card-size: 205px;
+}
+
 /*START*/
 
 body {
 	font-family: "Ropa Sans", sans-serif;
-	color: #333333;
-	font-size: 18px;
+	color: #3a3630;
+	font-size: 16px;
 	line-height: 1.25;
 	background-color: #f4eedf;
 	background: radial-gradient(#f4eedf 15%, transparent 10%) 0 0,
@@ -78,28 +86,23 @@ h1 {
 }
 
 h2 {
-	display: inline;
-
 	font-family: "Ropa Sans", sans-serif;
-	font-size: 26px;
-	line-height: 1.15;
+	font-size: 30px;
+	line-height: 1.25;
 	font-weight: 600;
-
+	border-top: 1px dashed #333333;
 	border-bottom: 1px dashed #333333;
-	text-shadow: 0px 2px 0px #b74720;
-	text-shadow: 0 2px 1px #b74720;
 
-	color: #f5ab50;
+	text-shadow: 0 2px 1px #333333;
+	color: #f5ab40;
 }
 
 h3 {
 	font-family: "Caveat", cursive;
-	display: inline;
-
-	font-size: 36px;
-	line-height: 1.15;
+	font-size: 48px;
+	line-height: 1;
 	font-weight: 600;
-	color: #333333;
+	color: #423c3a;
 }
 
 h4 {
@@ -157,27 +160,18 @@ h9 {
 	border-top: 1px dashed #333333;
 	border-bottom: 1px dashed #333333;
 
-	text-shadow: 0 2px 0 #333333;
+	text-shadow: 0 1px 0 #333333;
 	color: #f4eedf;
-}
-
-
-h10 {
-	font-family: "Ropa Sans", sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 1.55;
-
-	color: #f5ab40;
 }
 
 p {
 	font-family: "Ropa Sans", sans-serif;
-	font-size: 24px;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: 400;
 	line-height: 1.55;
 	color: #f4eedf;
 }
+
 
 .navbar-inverse .navbar-nav .nav-link {
 	color: #f4eedf;
@@ -201,7 +195,7 @@ p {
 
 .btn-success {
 	color: #333333;
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	background-color: #f4eedf;
 	border-color: #f4eedf;
 
@@ -210,21 +204,15 @@ p {
 
 .enableEthereumButton {
 	color: #333333;
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	background-color: #f5ab40;
 	border-color: #f5ab40;
 	padding: 10px;
 }
 
-.btn-primary:hover {
-	color: #fff;
-	background-color: #333333;
-	border-color: #333333;
-}
-
 .btn-primary {
 	color: #333333;
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	background-color: #f4eedf;
 	border-color: #f4eedf;
 	padding: 10px;
@@ -249,14 +237,9 @@ p {
 	transition: all 0.2s ease-in-out;
 }
 
-btn:hover {
-	color: #fff;
-	background-color: #222;
-}
-
 .bg-inverse {
 	height: 70px;
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
 	padding: 5px;
 	border-bottom: 3px solid #333333;
 	color: #333333;
@@ -277,26 +260,8 @@ btn:hover {
 	background: #333333;
 }
 
-.clickbait0 {
-	font-family: "Ropa Sans", sans-serif;
-	font-size: 18px;
-	color: #333333;
-	padding: 20px;
-	text-align: left;
-	background: radial-gradient(#f4eedf 15%, transparent 10%) 0 0,
-		radial-gradient(#dbcca9 10%, transparent 10%) 8px 8px,
-		radial-gradient(#dbcca9 10%, transparent 10%) 0 0px,
-		radial-gradient(#dbcca9 10%, transparent 10%) 8px 8px;
-	background-color: #f4eedf;
-	/*   background-color: rgb(60, 151, 100); */
-	background-size: 3px 3px;
-	justify-content: center;
-		border-bottom: 0.5px dashed #333333;
-	border-top: 0.5px dashed #333333;
-}
-
 .clickbait {
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Open Sans Pro", sans-serif;
 	font-size: 18px;
 	color: #f4eedf;
 	padding: 20px;
@@ -309,8 +274,6 @@ btn:hover {
 	background-color: #f5ab40;
 	/*   background-color: rgb(60, 151, 100); */
 	background-size: 3px 3px;
-		border-bottom: 0.5px dashed #333333;
-	border-top: 0.5px dashed #333333;
 }
 
 .clickbait2 {
@@ -323,7 +286,7 @@ btn:hover {
 }
 
 .clickbait3 {
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Open Sans Pro", sans-serif;
 	font-size: 18px;
 	color: #f4eedf;
 	padding: 20px;
@@ -332,31 +295,12 @@ btn:hover {
 }
 
 .clickbait4 {
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Open Sans Pro", sans-serif;
 	font-size: 18px;
 	color: #f4eedf;
 	padding: 20px;
 	text-align: left;
 	background-color: #f5ab40;
-}
-
-.clickbait5 {
-	justify-content: center;
-	font-family: "Ropa Sans", sans-serif;
-	font-size: 14px;
-	color: #f4eedf;
-	padding: 20px;
-	text-align: center;
-	border-bottom: 0.5px dashed #333333;
-	border-top: 0.5px dashed #333333;
-	background-color: #f5ab40;
-	background: radial-gradient(#ce8628 15%, transparent 10%) 0 0,
-		radial-gradient(#ce8628 10%, transparent 10%) 8px 8px,
-		radial-gradient(#ce8628 10%, transparent 10%) 0 0px,
-		radial-gradient(#ce8628 10%, transparent 10%) 8px 8px;
-	background-color: #f5ab40;
-	/*   background-color: rgb(60, 151, 100); */
-	background-size: 3px 3px;
 }
 
 /*COLUMN STRUCTURE */
@@ -370,7 +314,6 @@ btn:hover {
 }
 header {
 	padding: 0 15px;
-	text-align: left;
 }
 
 .columns {
@@ -395,7 +338,7 @@ header {
 
 .column1 {
 	flex: 1;
-	display: block;
+	border-top: 1px solid gray;
 	margin: 2px;
 	padding: 20px;
 	&:first-child {
@@ -407,7 +350,7 @@ header {
 }
 
 .footer {
-	font-family: "Ropa Sans", sans-serif;
+	font-family: "Open Sans Pro", sans-serif;
 	font-size: 16px;
 	padding: 15px;
 	line-height: 1.25;
@@ -430,7 +373,7 @@ header {
 	}
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 680px) {
 	.columns .column {
 		flex-basis: 100%;
 		margin: 0 0 5px 0;

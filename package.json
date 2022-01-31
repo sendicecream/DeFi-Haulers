@@ -1,9 +1,9 @@
 {
-  "name": "defi-haulers3-0",
-  "version": "2022.0.0-21.58.25",
+  "name": "defi-haulers2-0",
+  "version": "2022.0.5-13.5.59",
   "private": true,
   "license": "UNLICENSED",
-  "homepage": "https://codepen.io/sendicecream/pen/8560c2a90103e22a95a304998fac5172",
+  "homepage": "https://codepen.io/sendicecream/pen/6d91ada27eafc220723be4a03118d813",
   "scripts": {
     "build": "gulp -f ./build/gulpfile.js --cwd ./ --continue",
     "serve": "gulp serve -f ./build/gulpfile.js --cwd ./ --continue",
