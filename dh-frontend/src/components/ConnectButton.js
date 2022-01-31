@@ -9,7 +9,7 @@ const ConnectButton = () => {
 	const { activateBrowserWallet, deactivate, account, chainId } = useEthers()
 	return (
 		<div className="connect-div">
-		{chainId == 1 ? <span style={{"display": "none"}} className="info-subtext"></span> : <span className="info-subtext error">Connect to Avax</span> }
+		{chainId == 43114 ? <span style={{"display": "none"}} className="info-subtext"></span> : <span className="info-subtext error">Connect to Avax </span> }
 		{account ? <span className="info-subtext">{account.substring(0,8)}…{account.substring(account.length-6)}</span> : <span className="info-subtext error">Not Connected</span>}
 		{account ?
 		(
