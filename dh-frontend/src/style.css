@@ -176,7 +176,7 @@ p {
 }
 
 .connect-div {
-  width: 300px;
+  width: 700px;
   display: flex;
   flex-direction: row;
   justify-content: end;
@@ -220,6 +220,11 @@ p {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-right: -20px;
+}
+
+.error {
+  /*padding-right: 8px;*/
+  background-color: #cc0707;
 }
 
 .btn-primary {
