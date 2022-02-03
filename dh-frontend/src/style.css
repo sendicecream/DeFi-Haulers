@@ -72,9 +72,8 @@ h2 {
   font-size: 30px;
   line-height: 1.25;
   font-weight: 600;
-  border-top: 1px dashed #333333;
   border-bottom: 1px dashed #333333;
-  text-shadow: 0 2px 1px #333333;
+  text-shadow: 0 2px 1px #b74720;
   color: #f5ab40;
   margin: 10px 0;
 }

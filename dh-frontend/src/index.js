@@ -105,30 +105,32 @@ export function App() {
                                   </h2>
                                   <h6><span className="h8">noun</span> :</h6>
                                       <div className="wrapper">
-                                          <span className="h7">
+                                      
                                               <span className="h8">
-                                                  1.
+                                                  1. 
                                               </span>
-                                              A person who hauls.
+                                               A person who hauls.
                                               <br />
                                                   <span className="h8">
-                                                      2.
+                                                      2. 
                                                   </span>
-                                                  A commercial trucking company.
+                                                   A commercial trucking company.
                                                   <br />
                                                       <span className="h8">
-                                                          3.
+                                                          3. 
                                                       </span>
-                                                      A vehicle used for hauling or trucking.
+                                                       A vehicle used for hauling or trucking.
                                                       <br />
                                                           <span className="h8">
-                                                              4.
+                                                              4. 
                                                           </span>
-                                                          Slang. A car capable of very high speeds.
-                                          </span>
+                                                           Slang. A car capable of very high speeds.
+                                      
                                       </div>
                                   
                               </div>
+                              <div className="column">
+                              <img src="https://assets.codepen.io/7282469/detrhreth.png" />                                  </div>
                           </section>
                       </div>
                   </section>
@@ -141,13 +143,25 @@ export function App() {
           <section className="columns">
               <div className="column">
                   <h2>
-                      Launch + Mint Open
+                  Launch + Mint Open
                   </h2>
                   <h1>
-                      DeFi Haulers launched + opened minting on January 25th, 2022.
-                  </h1>
+                  DeFi Haulers launched + opened mint on February 4th, 2022.                   </h1>
                   <h1>
-                      1 AVAX per mint. No max per wallet. A total of 6,210 Haulers are ready be minted into existence. Full rarity table, metadata, and creation process information will be released on mint close.
+                      <br></br>
+                  1 AVAX per mint. No max per wallet. A total of 6,210 Haulers are ready to be minted into existence. 
+                  </h1>
+                  <br></br>
+                  <h1>
+                  Full rarity breakdown, metadata, and creation process information will be released on mint close. 
+                </h1>
+              </div>
+              <div className="column">
+                  <h2>
+                      Degen Motors
+                  </h2>
+                  <h1>
+                  When all 6,210 Haulers have been dispatched - Degen Motors will begin accepting trade-in's. Hauler owners may choose to trade any Hauler at any time in exchange for 0.5 AVAX. This is an automated process in which users instantly receive the 0.5 AVAX payout. Trade-In Haulers are sent directly to the scrap yard (burned) 
                   </h1>
               </div>
               <div className="column">
@@ -155,53 +169,17 @@ export function App() {
                       haulers.online
                   </h2>
                   <h1>
-                      DeFi Haulers are intended to serve as both collectible NFT’s and playable in-game vehicles for haulers.online - a multiplayer “top down” style, driving based game world where players battle against each other in various mini-games to earn AVAX rewards. More information and a thorough roadmap will be released for haulers.online when DeFi Haulers minting has concluded. The project is still early in development and currently a one dev show. Join the Discord or follow on Twitter for progress on game development + DeFi Haulers announcements.
+                  DeFi Haulers exist to serve as both collectible NFT’s and playable in-game vehicles in haulers.online - a browser based, multi-player, “top down” style, driving based game world. The game is four months into prototyping inside Unreal Engine 5 - with primary focus on core game mechanics + art direction. More details TBA. 
                   </h1>
               </div>
           </section>
-          <header>
-              <h3>
-                  Rewards Distribution
-              </h3>
-          </header>
+
           <section className="columns">
-              <div className="column">
-                  <h2>
-                      40% - Trade-In Program
-                  </h2>
-                  <h1>
-                      When all 6,210 Haulers have been minted, Degen Used Motors - our automated appraiser, will begin accepting all trade-in's of pre-owned Haulers. This gives anyone the option to trade any Hauler in exchange for 0.5 AVAX - no questions asked. Trade-in vehicles are sent to the scrap yard (burned).
-                  </h1>
-              </div>
-              <div className="column">
-                  <h2>
-                      30% - Dev Wallet
-                  </h2>
-                  <h1>
-                      The dev allocation of mint sales will be used to fund haulers.online game development - in addition to contiued building + support for DeFi Haulers as a community and a brand full-time. These funds will also allow on-boarding of additional dev / community relations talent.
-                  </h1>
-              </div>
+            
           </section>
           <section className="columns">
-              <div className="column">
-                  <h2>
-                      10% - Twitter Giveaway
-                  </h2>
-                  <h1>
-                      We are giving away 621 AVAX to 621 @DeFiHaulers Twitter followers. To qualify, you must follow @DeFiHaulers and post one tweet with the hastag #DeFiHaulers - and that's it. one tweet.
-                  </h1>
-              </div>
-              <div className="column">
-                  <h2>
-                      10% - Discord Giveaway
-                  </h2>
-                  <h1>
-                      The first 621 people who join and accept a role in the
-                      <br />
-                          DeFi Haulers Discord will receive 1 AVAX.
-                      
-                  </h1>
-              </div>
+           
+          
           </section>
       </div>
       <section className="clickbait3" id="pricing">
@@ -279,7 +257,7 @@ export function App() {
                           <h2>
                               Welcome Drivers,
                           </h2>
-                          - my name is<span className="h8">Upgrayedd</span> .
+                         My name is<span className="h8">Upgrayedd</span> .
                           <br />
                               Strong background in design + product development.
                               <br />
