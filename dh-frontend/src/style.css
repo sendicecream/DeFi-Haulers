@@ -38,6 +38,7 @@
 }
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 :root {
@@ -75,6 +76,7 @@ h2 {
   border-bottom: 1px dashed #333333;
   text-shadow: 0 2px 1px #333333;
   color: #f5ab40;
+  margin: 10px 0;
 }
 
 h3 {
@@ -83,6 +85,7 @@ h3 {
   line-height: 1;
   font-weight: 600;
   color: #423c3a;
+  margin: 10px 0;
 }
 
 h4 {
@@ -91,6 +94,7 @@ h4 {
   float: left;
   line-height: 1.55;
   color: #333333;
+  margin: 8px 0;
 }
 
 h5 {
@@ -100,6 +104,7 @@ h5 {
   line-height: 1.55;
   text-align: center;
   color: #f4eedf;
+  margin: 8px 0;
 }
 
 h6 {
@@ -109,6 +114,7 @@ h6 {
   line-height: 1.55;
   text-align: left;
   color: #f4eedf;
+  margin: 8px 0;
 }
 
 .h7 {
@@ -148,7 +154,8 @@ p {
   color: #f4eedf;
 }
 
-.navbar-inverse .navbar-nav .nav-link {
+.nav-link {
+  display: inline-block;
   color: #f4eedf;
   font-family: "Ropa Sans", sans-serif;
   font-size: 16px;
@@ -156,7 +163,7 @@ p {
   padding-bottom: 5px;
 }
 
-.navbar-inverse .navbar-nav .nav-link:hover {
+.nav-link:hover {
   color: #f5ab40;
   font-family: "Ropa Sans", sans-serif;
   font-size: 16px;
@@ -166,6 +173,14 @@ p {
 
 .navbar-toggler-icon {
   padding-bottom: 5px;
+}
+
+.connect-div {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
 }
 
 .btn-success {
@@ -178,10 +193,33 @@ p {
 
 .enableEthereumButton {
   color: #333333;
+  text-align: center;
+  width: 120px;
   font-family: "Source Sans Pro", sans-serif;
   background-color: #f5ab40;
   border-color: #f5ab40;
   padding: 10px;
+}
+
+.enableEthereumButton:hover {
+  color: #fafafa;
+  background-color: #3077cc;
+
+}
+
+.info-subtext {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fafafa;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #444457;
+  padding-right: 26px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: -20px;
 }
 
 .btn-primary {
@@ -224,11 +262,34 @@ p {
   bottom: 1rem;
 }
 
+.navbar {
+  padding: 0 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .navbar-inverse .navbar-nav .nav-link {
   display: block;
   padding: 8px;
   max-width: 100%;
   background: #333333;
+  text-decoration: none;
 }
 
 .clickbait {
@@ -278,10 +339,6 @@ p {
   width: 100%;
   margin: 10px auto;
   justify-content: center;
-}
-
-header {
-  padding: 0 15px;
 }
 
 .columns {

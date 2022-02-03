@@ -1,5 +1,6 @@
-import React, { ReactElement, useEffect, useState } from 'react'
-import { ChainId, DAppProvider, useEthers, useTransactions, useContractFunction, useContractCall } from '@usedapp/core'
+import React, { useState } from 'react'
+import '../style.css';
+import { useEthers, useContractFunction } from '@usedapp/core'
 import { formatEther, formatUnits } from '@ethersproject/units'
 import { utils, BigNumber } from 'ethers'
 import { Contract } from '@ethersproject/contracts'

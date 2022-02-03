@@ -1,15 +1,13 @@
 import '../App.css'
+import '../style.css';
 import React from 'react'
-import { ChainId, DAppProvider, useEtherBalance, useEthers, Config, useTransactions, useTokenBalance, useNotifications, useContractFunction, useContractCall } from '@usedapp/core'
-import { formatEther, formatUnits } from '@ethersproject/units'
-import { utils } from 'ethers'
-import { Contract } from '@ethersproject/contracts'
+import { useEthers } from '@usedapp/core'
 
 const ConnectButton = () => {
 	const { activateBrowserWallet, deactivate, account, chainId } = useEthers()
 	return (
 		<div className="connect-div">
-		{chainId == 43114 ? <span style={{"display": "none"}} className="info-subtext"></span> : <span className="info-subtext error">Connect to Avax </span> }
+		{chainId === 43114 ? <span style={{"display": "none"}} className="info-subtext"></span> : <span className="info-subtext error">Connect to Avax </span> }
 		{account ? <span className="info-subtext">{account.substring(0,8)}…{account.substring(account.length-6)}</span> : <span className="info-subtext error">Not Connected</span>}
 		{account ?
 		(

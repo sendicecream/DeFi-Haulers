@@ -33,8 +33,7 @@ export function App() {
                                   </span>
                               </button>
                               <a className="navbar-brand" href="#">
-                                  <img src="https://assets.codepen.io/7282469/Asset+3_1.svg">
-                                  </img>
+                                  <img src="https://assets.codepen.io/7282469/Asset+3_1.svg" />
                               </a>
                               <div className="collapse navbar-collapse" id="navbarNav">
                                   <ul className="navbar-nav">
@@ -102,16 +101,9 @@ export function App() {
                           <section className="columns">
                               <div className="column">
                                   <h2>
-                                      Hauler
-                [ haw-ler ]
+                                      Hauler [ haw-ler ]
                                   </h2>
-                                  <h6>
-                                      noun
-                                  </h6>
-                                  <h6>
-                                      :
-                                  </h6>
-                                  <br />
+                                  <h6><span className="h8">noun</span> :</h6>
                                       <div className="wrapper">
                                           <span className="h7">
                                               <span className="h8">
@@ -133,8 +125,6 @@ export function App() {
                                                               4.
                                                           </span>
                                                           Slang. A car capable of very high speeds.
-                                                  
-                                              
                                           </span>
                                       </div>
                                   
@@ -142,8 +132,6 @@ export function App() {
                           </section>
                       </div>
                   </section>
-          <br />
-          <br />
       <div className="wrapper">
           <header>
               <h3>
@@ -235,9 +223,9 @@ export function App() {
                       </div>
                       <div className="card-details">
                           <div className="name">
-                              <h6>
+                              <span className="h8">
                                   DeFi Haulers
-                              </h6>
+                              </span>
                               <h4>
                                   Driver Identification
                               </h4>
