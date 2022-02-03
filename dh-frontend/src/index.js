@@ -279,11 +279,7 @@ export function App() {
                           <h2>
                               Welcome Drivers,
                           </h2>
-                          - my name is
-                          <h6>
-                              Upgrayedd
-                          </h6>
-                          .
+                          - my name is<span className="h8">Upgrayedd</span> .
                           <br />
                               Strong background in design + product development.
                               <br />
