@@ -108,7 +108,7 @@ h5 {
 
 h6 {
   font-family: "Ropa Sans", sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 1.55;
   text-align: left;
@@ -321,8 +321,7 @@ p {
 }
 
 .clickbait3 {
-  font-family: "Open Sans Pro", sans-serif;
-  font-size: 18px;
+  font-family: "Ropa Sans", sans-serif;  font-size: 18px;
   color: #f4eedf;
   padding: 20px;
   text-align: left;
@@ -330,12 +329,15 @@ p {
 }
 
 .clickbait4 {
-  font-family: "Open Sans Pro", sans-serif;
-  font-size: 18px;
-  color: #f4eedf;
+  font-family: "Ropa Sans", sans-serif;  font-size: 18px;
+  color: #333333;
   padding: 20px;
   text-align: left;
   background-color: #f5ab40;
+  background: radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0, radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px, radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px, radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
+  background-color: #f5ab40;
+  /*   background-color: rgb(60, 151, 100); */
+  background-size: 3px 3px;
 }
 
 /*COLUMN STRUCTURE */
@@ -358,7 +360,7 @@ p {
   flex: 1;
   border: 0px solid gray;
   margin: 2px;
-  padding: 20px;
+  padding: 5px;
 }
 .column:first-child {
   margin-left: 0;
@@ -369,9 +371,11 @@ p {
 
 .column1 {
   flex: 1;
-  border-top: 1px solid gray;
+  border-top: 1px dashed #f4eedf;
+  border-bottom: 1px dashed #f4eedf;
   margin: 2px;
-  padding: 20px;
+  padding-bottom: 15px;
+  padding-top: 5px;
 }
 .column1:first-child {
   margin-left: 0;

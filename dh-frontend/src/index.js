@@ -43,7 +43,7 @@ export function App() {
                                           </a>
                                       </li>
                                       <li className="nav-item">
-                                          <a className="nav-link scroll" href="#inventory">
+                                          <a className="nav-link scroll" a href="https://nftrade.com/" target="_blank">
                                               Inventory
                                           </a>
                                       </li>
@@ -96,9 +96,9 @@ export function App() {
                       <div className="wrapper">
                           <section className="columns">
                               <div className="column">
-                                  <h2>
+                                  <h6>
                                       Hauler [ haw-ler ]
-                                  </h2>
+                                  </h6>
                                   <h6><span className="h8">noun</span> :</h6>
                                       <div className="wrapper">
                                       
@@ -170,17 +170,19 @@ export function App() {
                   </h1>
               </div>
           </section>
+         </div>
 
-          <section className="columns">
-          <div className="column">
-          Please note: the trade-in payout fund will start with a balance of 2,000 AVAX, and will operate for 60 days from time of mint close, or until the 2,000 AVAX balanche is depleted - whichever occurs first. Any AVAX remaining after 60 days will be distributed evenly to all current Hauler owners.  
-</div>
-          </section>
-          <section className="columns">
-           
-          
-          </section>
-      </div>
+         <section className="clickbait4" id="pricing">
+          <div className="wrapper">
+              <section className="columns">
+              Please note: the trade-in payout fund will start with a balance of 2,000 AVAX, and will operate for 60 days from time of mint close, or until the 2,000 AVAX balanche is depleted - whichever occurs first. Any AVAX remaining after 60 days will be distributed evenly to all current Hauler owners.  
+        </section>
+          </div>
+      </section>
+        
+
+
+
       <section className="clickbait3" id="pricing">
           <div className="wrapper">
               <section className="columns">
@@ -253,9 +255,9 @@ export function App() {
                   </div>
                   <section className="clickbait2" id="pricing">
                       <div className="column1">
-                          <h2>
+                          <h6>
                               Welcome Drivers,
-                          </h2>
+                          </h6>
                          My name is<span className="h8">Upgrayedd</span> .
                           <br />
                               Strong background in design + product development.
@@ -263,7 +265,7 @@ export function App() {
                                   Repeat rugpull victim. Recovering shit-coin addict.
                                   <br />
                                       I hope you like the pictures.💜
-                                  
+                                 
                               
                           
                       </div>
@@ -271,12 +273,7 @@ export function App() {
               </section>
           </div>
       </section>
-      <section className="clickbait4" id="pricing">
-          <div className="wrapper">
-              <section className="columns">
-              </section>
-          </div>
-      </section>
+    
       <div className="footer">
           <h1>
               © DeFi Haulers LLC | 2022
