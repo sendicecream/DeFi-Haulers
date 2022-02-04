@@ -109,10 +109,12 @@ export function App() {
                 <span className="h8">4. &nbsp;</span>
                 Slang. A car capable of very high speeds.
               </div>
-            </div>
 
-            <div class="exploded"></div>
+            </div>
+              <div class="exploded"></div>
+
           </section>
+      
         </div>
       </section>
       <section className="clickbait5" id="roadmap">
