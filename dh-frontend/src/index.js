@@ -114,8 +114,9 @@ export function App() {
               </div>
 
             </div>
+            <div className="column">
               <div class="exploded"></div>
-
+</div>
           </section>
       
         </div>
