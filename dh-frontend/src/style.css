@@ -183,10 +183,6 @@ p {
 }
 
 
-.error {
-  /*padding-right: 0px;*/
-  display: none;
-}
 
 .btn-primary {
   display: flex;
@@ -234,6 +230,10 @@ p {
   margin-right: -10px;
 }
 
+.error {
+  /*padding-right: 0px;*/
+  display: none;
+}
 
 
 .container {
