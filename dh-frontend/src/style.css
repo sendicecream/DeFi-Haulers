@@ -170,6 +170,10 @@ p {
   padding-bottom: 5px;
 }
 
+.navbar-brand
+
+{display:inline-block;}
+
 .navbar-toggler-icon {
   padding-bottom: 5px;
 }
@@ -276,7 +280,7 @@ p {
   flex-wrap: nowrap;
   height: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -487,14 +491,14 @@ svg {
 .item {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.15rem;
   padding: 2px;
 }
 .item .value {
   font-size: 0.75rem;
 }
 .item .label {
-  margin-top: 0.15rem;
+  margin-top: 0.05rem;
   font-size: 0.75rem;
   font-weight: 600;
   padding: 2px;
@@ -505,7 +509,7 @@ svg {
 .skills {
   display: flex;
   flex-direction: column;
-  margin-top: 0.15rem;
+  margin-top: 0.05rem;
 }
 .skills .label {
   border-bottom: 0.5px dashed #333333;
