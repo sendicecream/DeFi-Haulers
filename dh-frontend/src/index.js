@@ -107,22 +107,22 @@ export function App() {
                                       <div className="wrapper">
                                       
                                               <span className="h8">
-                                                  1. 
+                                                  1. &nbsp;
                                               </span>
                                                A person who hauls.
                                               <br />
                                                   <span className="h8">
-                                                      2. 
+                                                      2. &nbsp;
                                                   </span>
                                                    A commercial trucking company.
                                                   <br />
                                                       <span className="h8">
-                                                          3. 
+                                                          3. &nbsp;
                                                       </span>
                                                        A vehicle used for hauling or trucking.
                                                       <br />
                                                           <span className="h8">
-                                                              4. 
+                                                              4. &nbsp;
                                                           </span>
                                                            Slang. A car capable of very high speeds.
                                       
@@ -130,7 +130,8 @@ export function App() {
                                   
                               </div>
                               <div className="column">
-                              <img src="https://assets.codepen.io/7282469/detrhreth.png" />                                  </div>
+                              <img src="https://assets.codepen.io/7282469/Crimson_Avax_Delivery-1.gif" alt="This will display an animated GIF" />
+                                                             </div>
                           </section>
                       </div>
                   </section>
@@ -161,7 +162,7 @@ export function App() {
                       Degen Motors
                   </h2>
                   <h1>
-                  When all 6,210 Haulers have been dispatched - Degen Motors will begin accepting trade-in's. Hauler owners may choose to trade any Hauler at any time in exchange for 0.5 AVAX. This is an automated process in which users instantly receive the 0.5 AVAX payout. Trade-In Haulers are sent directly to the scrap yard (burned) 
+                  When all 6,210 Haulers have been dispatched - Degen Motors will begin accepting trade-in's. Hauler owners may choose to trade any Hauler at any time in exchange for 0.5 AVAX. This is an automated process in which users instantly receive the 0.5 AVAX payout. Trade-In Haulers are sent directly to the scrap yard (burned).
                   </h1>
               </div>
               <div className="column">
@@ -175,7 +176,9 @@ export function App() {
           </section>
 
           <section className="columns">
-            
+          <div className="column">
+          Please note: the trade-in payout fund will start with a balance of 2,000 AVAX, and will operate for 60 days from time of mint close, or until the 2,000 AVAX balanche is depleted - whichever occurs first. Any AVAX remaining after 60 days will be distributed evenly to all current Hauler owners.  
+</div>
           </section>
           <section className="columns">
            
