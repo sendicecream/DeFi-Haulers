@@ -60,7 +60,7 @@ export function App() {
                                           Twitter</a>
                                       </li>
                                       <li className="nav-item">
-                                          <a className="nav-link scroll" a href="https://discord.gg/gcfT8M2s" target="_blank" style={{"color": "#1DA1F2"}}>
+                                          <a className="nav-link scroll" a href="https://discord.gg/gcfT8M2s" target="_blank" style={{"color": "#5865F2"}}>
                                               Discord
                                           </a>
                                       </li>
