@@ -78,6 +78,7 @@ export function App() {
                                     <br />
                                       <br />
                                         <center>
+                                            
                                             <MintButton />
                                             <br />
                                               <br />
