@@ -33,33 +33,50 @@ export function App() {
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ropa+Sans:ital@0;1&display=swap"
         rel="stylesheet"
       />
-     <header class="header-banner-top">
+      <header class="header-banner-top">
+        <div class="main-navigation">
+          <input
+            type="checkbox"
+            name="mobile-menu-toggle"
+            id="mobile-menu-toggle"
+            class="mobile-menu-box"
+          />
+          <nav class="horizontal-nav primary-wrapper" role="navigation">
+            <ul>
+              <li class="active-link">
+                <img
+                  src="https://assets.codepen.io/7282469/Asset+3.svg"
+                  id="logo"
+                />
+              </li>
+              <li class="active-link">
+                <a href="#Roadmap">Roadmap</a>
+              </li>
+              <li>
+                <a href="#About">About</a>
+              </li>
+              <li class="nav-link">
+                <a href="https://twitter.com/DefiHaulers">Twitter</a>
+              </li>
+              <li class="nav-link">
+                <a href="https://discord.gg/z3CEajkg">Discord</a>
+              </li>
+              <li>
+                <ConnectButton />
+              </li>
+            </ul>
+          </nav>
 
-<div class="main-navigation">
-  <input type="checkbox" name="mobile-menu-toggle" id="mobile-menu-toggle" class="mobile-menu-box" />
-  <nav class="horizontal-nav primary-wrapper" role='navigation'>
-    <ul>
-    <li class="active-link"><img src="https://assets.codepen.io/7282469/Asset+3.svg" id="logo"/></li>
-      <li class="active-link"><a href="#Roadmap">Roadmap</a></li>
-      <li><a href="#About">About</a></li>
-      <li class="nav-link"><a href="https://twitter.com/DefiHaulers">Twitter</a></li>
-      <li class="nav-link"><a href="https://discord.gg/z3CEajkg">Discord</a></li>
-      <li><ConnectButton/></li>
-
-    </ul>
-  </nav>
-  <label for="mobile-menu-toggle" class="mobile-menu-label hidden"></label>
-</div>
-
-
-</header>
-    <section className="clickbait4" id="mint">
+          <label
+            for="mobile-menu-toggle"
+            class="mobile-menu-label hidden"
+          ></label>
+        </div>
+      </header>
+      <section className="clickbait4" id="mint">
         <div className="wrapper">
           <section className="columns">
             <div className="column">
-            
-           
-
               <br />
 
               <center>
@@ -69,10 +86,8 @@ export function App() {
             </div>
           </section>
         </div>
-
-
       </section>
-      
+
       <section className="clickbait2" id="roadmap">
         <div className="wrapper">
           <section className="columns">
