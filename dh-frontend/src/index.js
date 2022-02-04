@@ -10,7 +10,6 @@ import {
   useEthers,
   Config,
 } from "@usedapp/core";
-import sample from "./components/DeFiHaulers2.mp4";
 ReactDOM.render(
   <React.StrictMode>
     <DAppProvider>
@@ -101,9 +100,6 @@ export function App() {
         <div className="wrapper">
           <section className="columns">
             <div className="column">
-              <div class="exploded"></div>
-            </div>
-            <div className="column">
               <h6>Hauler [ haw-ler ]</h6>
               <h6>
                 <span className="h8">noun</span> :
@@ -133,6 +129,7 @@ export function App() {
                 </a>
               </span>
             </div>
+            <div className="column"></div>
           </section>
         </div>
       </section>
