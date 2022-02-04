@@ -68,23 +68,26 @@ h1 {
 }
 
 h2 {
+  display: inline;
   font-family: "Ropa Sans", sans-serif;
-  font-size: 30px;
-  line-height: 1.25;
+  font-size: 26px;
+  line-height: 1.875;
   font-weight: 600;
   border-bottom: 1px dashed #333333;
+  text-shadow: 0px 2px 0px #b74720;
   text-shadow: 0 2px 1px #b74720;
-  color: #f5ab40;
-  margin: 10px 0;
+  color: #f5ab50;
 }
 
 h3 {
+  display: inline;
+  text-align: left;
   font-family: "Caveat", cursive;
-  font-size: 48px;
+  font-size: 42px;
   line-height: 1;
   font-weight: 600;
   color: #423c3a;
-  margin: 10px 0;
+
 }
 
 h4 {
@@ -313,7 +316,7 @@ p {
 
 .clickbait2 {
   font-family: "Ropa Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #f4eedf;
   padding: 10px;
   text-align: left;
@@ -330,10 +333,10 @@ p {
 }
 
 .clickbait4 {
-  font-family: "Ropa Sans", sans-serif;  font-size: 18px;
+  font-family: "Ropa Sans", sans-serif;  font-size: 16px;
   color: #333333;
   padding: 20px;
-  text-align: left;
+  text-align: center;
   background-color: #f5ab40;
   background: radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0, radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px, radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px, radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
   background-color: #f5ab40;
@@ -343,9 +346,9 @@ p {
 
 /*COLUMN STRUCTURE */
 .wrapper {
-  padding: 5px;
+  padding: 15px;
   max-width: 960px;
-  width: 95%;
+  width: 100%;
   margin: 10px auto;
   justify-content: center;
 }
@@ -360,8 +363,8 @@ p {
 .column {
   flex: 1;
   border: 0px solid gray;
-  margin: 2px;
-  padding: 5px;
+  margin: 5px;
+  padding: 10px;
   justify-content: center;
 
 }
@@ -376,9 +379,8 @@ p {
   flex: 1;
   border-top: 0px dashed #f4eedf;
   border-bottom: 0px dashed #f4eedf;
-  margin: 2px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  margin: 5px auto;
+  padding:10px;
 }
 .column1:first-child {
   margin-left: 0;

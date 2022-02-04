@@ -141,9 +141,8 @@ export function App() {
           </header>
           <section className="columns">
               <div className="column">
-                  <h2>
-                  Launch + Mint Open
-                  </h2>
+                  <h3>1.</h3>
+                  <h2>Launch + Mint Open</h2>
                   <h1>
                   DeFi Haulers launched + opened mint on February 4th, 2022.                   </h1>
                   <h1>
@@ -156,17 +155,15 @@ export function App() {
                 </h1>
               </div>
               <div className="column">
-                  <h2>
-                      Degen Motors
-                  </h2>
+              <h3>2.</h3>
+                  <h2>Degen Motors</h2>
                   <h1>
                   When all 6,210 Haulers have been dispatched - Degen Motors will begin accepting trade-in's. Hauler owners may choose to trade any Hauler at any time in exchange for 0.5 AVAX. This is an automated process in which users instantly receive the 0.5 AVAX payout. Trade-In Haulers are sent directly to the scrap yard (burned).
                   </h1>
               </div>
               <div className="column">
-                  <h2>
-                      haulers.online
-                  </h2>
+              <h3>3.</h3>
+                  <h2>haulers.online</h2>
                   <h1>
                   DeFi Haulers exist to serve as both collectible NFT’s and playable in-game vehicles in haulers.online - a browser based, multi-player, “top down” style, driving based game world. The game is four months into prototyping inside Unreal Engine 5 - with primary focus on core game mechanics + art direction. More details TBA. 
                   </h1>
@@ -183,7 +180,7 @@ export function App() {
           </header>
               <section className="columns">
              
-              The trade-in payout fund will start with a balance of 2,000 AVAX, and will operate for 60 days from time of mint close, or until the 2,000 AVAX balance is depleted - whichever occurs first. Any AVAX remaining after 60 days will be distributed evenly to all current Hauler owners.  
+              The trade-in payout fund will start with a balance of 2,000 AVAX, and will operate for 60 days from time of mint close, or until the 2,000 AVAX balance is depleted - whichever occurs first. Remaining AVAX balance after 60 days will be distributed evenly amongst Hauler owners.  
         </section>
           </div>
       </section>
