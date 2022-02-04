@@ -96,7 +96,7 @@ h4 {
   font-family: "Ropa Sans", sans-serif;
   font-size: 15px;
   float: left;
-  line-height: 1.55;
+  line-height: 1.25;
   color: #333333;
   margin: 8px 0;
 }
@@ -262,6 +262,8 @@ p {
   background-size: cover;
   background-position: center center;
   overflow: hidden;
+
+
 }
 
 .clickbait2 {
@@ -272,6 +274,7 @@ p {
   text-align: left;
   line-height: 1.55;
   background-color: #333333;
+  
 }
 
 .clickbait3 {
@@ -285,6 +288,7 @@ p {
 
 .clickbait4 {
   font-family: "Ropa Sans", sans-serif;
+  border-bottom: 1px dashed #333333;
   font-size: 16px;
   color: #333333;
   padding: 20px;
@@ -301,6 +305,8 @@ p {
 
 .clickbait5 {
   font-family: "Ropa Sans", sans-serif;
+  border-bottom: 1px dashed #333333;
+  border-top: 1px dashed #333333;
   font-size: 16px;
   color: #333333;
   padding: 20px;
@@ -326,6 +332,7 @@ p {
 }
 
 .columns {
+
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -333,7 +340,7 @@ p {
 }
 
 .column {
-  flex: 1;
+  flex: 3;
   border: 0px solid gray;
   margin: 5px;
   padding: 10px;

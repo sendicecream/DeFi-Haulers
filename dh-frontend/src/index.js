@@ -50,10 +50,13 @@ export function App() {
                 />
               </li>
               <li class="active-link">
-                <a href="#Roadmap">Roadmap</a>
+              <a href="#roadmap">Roadmap</a>
               </li>
               <li>
-                <a href="#About">About</a>
+                <a href="#about">About</a>
+              </li>
+              <li class="nav-link">
+                <a href="https://nftrade.com" target="_blank">Pre-Owned</a>
               </li>
               <li class="nav-link">
                 <a href="https://twitter.com/DefiHaulers" target="_blank">Twitter</a>
@@ -171,8 +174,7 @@ export function App() {
           <section className="columns">
             The trade-in payout fund will start with a balance of 2,000 AVAX,
             and will operate for 60 days from time of mint close, or until the
-            2,000 AVAX balance is depleted - whichever occurs first. Remaining
-            AVAX balance after 60 days will be distributed evenly amongst Hauler
+            2,000 AVAX balance is depleted - whichever occurs first. Any surplus AVAX after 60 days will be distributed evenly amongst Hauler
             owners.
           </section>
         </div>
