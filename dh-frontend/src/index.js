@@ -49,7 +49,7 @@ export function App() {
                                       </li>
                                 
                                       <li className="nav-item">
-                                          <a className="nav-link scroll" href="#roadmap">
+                                          <a className="nav-link scroll" href="#about">
                                               About
                                           </a>
                                       </li>
@@ -191,7 +191,7 @@ export function App() {
 
 
 
-      <section className="clickbait3" id="pricing">
+      <section className="clickbait3" id="about">
           <div className="wrapper">
               <section className="columns">
                   <div className="card">
@@ -263,9 +263,7 @@ export function App() {
                   </div>
                   <section className="clickbait2" id="pricing">
                       <div className="column1">
-                          <h6>
-                              Hello Drivers,
-                          </h6>
+                          <h6>Hello Drivers,</h6>
                          My name is<span className="h8">Upgrayedd</span> .
                           <br />
                               Strong background in design + product development.

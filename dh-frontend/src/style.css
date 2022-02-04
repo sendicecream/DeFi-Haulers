@@ -110,10 +110,10 @@ h6 {
   font-family: "Ropa Sans", sans-serif;
   font-size: 38px;
   font-weight: 600;
-  line-height: 1.55;
+  line-height: 1;
   text-align: left;
   color: #f4eedf;
-  margin: 8px 0;
+
 }
 
 .h7 {
@@ -317,7 +317,7 @@ p {
   color: #f4eedf;
   padding: 10px;
   text-align: left;
-  line-height: 2.25;
+  line-height: 1.75;
   background-color: #333333;
 }
 
@@ -374,10 +374,10 @@ p {
 
 .column1 {
   flex: 1;
-  border-top: 1px dashed #f4eedf;
-  border-bottom: 1px dashed #f4eedf;
+  border-top: 0px dashed #f4eedf;
+  border-bottom: 0px dashed #f4eedf;
   margin: 2px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   padding-top: 5px;
 }
 .column1:first-child {
