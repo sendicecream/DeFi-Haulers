@@ -4,7 +4,7 @@ import './style.css';
 import MintButton from './components/MintButton'
 import ConnectButton from './components/ConnectButton'
 import { Mainnet, DAppProvider, useEtherBalance, useEthers, Config } from '@usedapp/core'
-
+import sample from './components/DeFiHaulers2.mp4';
 ReactDOM.render(
 <React.StrictMode>
     <DAppProvider>
@@ -22,6 +22,7 @@ export function App() {
 
   return (
     <div>
+        <link rel="stylesheet" href="/css/video-react.css" />
       <link href="https://fonts.googleapis.com" rel="preconnect" />
           <link crossOrigin="" href="https://fonts.gstatic.com" rel="preconnect" />
               <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ropa+Sans:ital@0;1&display=swap" rel="stylesheet" />
@@ -77,29 +78,35 @@ export function App() {
                       </nav>
 
                   </header>
-                  <section className="clickbait" id="pricing">
+                  <section className="clickbait" id="mint">
+                
                       <div className="wrapper">
                           <section className="columns">
                               <div className="column">
+                              <video className='video' autoPlay loop muted>
+    <source src={sample} type='video/mp4' />
+</video>
+                             
+                               
                                 <br />
                                   <br />
                                     <br />
                                       <br />
                                         <center>
-                                            
+
                                             <MintButton />
                                             <br />
                                               <br />
                                               
-                                            
+                                        
                                         </center>
                                       
-                                    
                                   
-                                
+                                    
                               </div>
                           </section>
-                      </div>
+                          </div>
+                     
                   </section>
                   <section className="clickbait2" id="roadmap">
                       <div className="wrapper">
@@ -141,6 +148,7 @@ export function App() {
                           </section>
                       </div>
                   </section>
+                  <section className="clickbait5" id="roadmap">
       <div className="wrapper">
           <header>
               <h3>
@@ -155,11 +163,11 @@ export function App() {
                   DeFi Haulers launched + opened mint on February 4th, 2022.                   </h1>
                   <h1>
                       <br></br>
-                  1 AVAX per mint. No max per wallet. A total of 6,210 Haulers are ready to be minted into existence. 
-                  </h1>
+                  1 AVAX per mint. No max per wallet. 
                   <br></br>
-                  <h1>
-                  Full rarity breakdown, metadata, and creation process information will be released on mint close. 
+                  A total of 6,210 Haulers are ready to be minted into existence. 
+            
+                  Full rarity breakdown, metadata, and creation process information will be released shortly after mint close. 
                 </h1>
               </div>
               <div className="column">
@@ -178,7 +186,7 @@ export function App() {
               </div>
           </section>
          </div>
-
+         </section>
          <section className="clickbait4" id="pricing">
           <div className="wrapper">
           <header>
@@ -284,12 +292,14 @@ export function App() {
               </section>
           </div>
       </section>
-    
+      <section className="clickbait5" id="pricing">
+
       <div className="footer">
           <h1>
               © DeFi Haulers LLC | 2022
           </h1>
       </div>
+      </section>
       <script data-cf-beacon='{"token": "871c0057683e4ee0a83d41a8635bdf57"}' defer="" src="https://static.cloudflareinsights.com/beacon.min.js">
       </script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
