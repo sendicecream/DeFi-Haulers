@@ -126,8 +126,7 @@ export function App() {
                                   
                               </div>
                               <div className="column">
-                              <img src="https://assets.codepen.io/7282469/Crimson_Avax_Delivery-1.gif" alt="This will display an animated GIF" />
-                                                             </div>
+                              <img src="https://assets.codepen.io/7282469/4t34t34.png" />                                                             </div>
                           </section>
                       </div>
                   </section>
