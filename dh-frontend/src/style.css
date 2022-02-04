@@ -170,9 +170,7 @@ p {
   padding-bottom: 5px;
 }
 
-.navbar-brand
 
-{display:inline-block;}
 
 .navbar-toggler-icon {
   padding-bottom: 5px;
@@ -255,7 +253,7 @@ p {
 }
 
 .bg-inverse {
-  height: 70px;
+  height: 75px;
   font-family: "Source Sans Pro", sans-serif;
   padding: 5px;
   border-bottom: 3px solid #333333;
@@ -277,7 +275,7 @@ p {
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-flow: row wrap;
   height: 100%;
   align-items: center;
   justify-content: center;

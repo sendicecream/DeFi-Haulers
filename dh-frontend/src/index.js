@@ -47,11 +47,7 @@ export function App() {
                                               Inventory
                                           </a>
                                       </li>
-                                      <li className="nav-item">
-                                          <a className="nav-link scroll" href="#pricing">
-                                              Trade-In
-                                          </a>
-                                      </li>
+                                
                                       <li className="nav-item">
                                           <a className="nav-link scroll" href="#roadmap">
                                               About
@@ -250,7 +246,7 @@ export function App() {
                                   Instagram:
                               </span>
                               <span className="value">
-                                  @jeffreybuchanan
+                                  @sendicecream
                               </span>
                           </div>
                       </div>
