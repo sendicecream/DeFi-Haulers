@@ -174,8 +174,14 @@ export function App() {
 
          <section className="clickbait4" id="pricing">
           <div className="wrapper">
+          <header>
+              <h3>
+                  Please note:
+              </h3>
+          </header>
               <section className="columns">
-              Please note: the trade-in payout fund will start with a balance of 2,000 AVAX, and will operate for 60 days from time of mint close, or until the 2,000 AVAX balanche is depleted - whichever occurs first. Any AVAX remaining after 60 days will be distributed evenly to all current Hauler owners.  
+             
+              The trade-in payout fund will start with a balance of 2,000 AVAX, and will operate for 60 days from time of mint close, or until the 2,000 AVAX balanche is depleted - whichever occurs first. Any AVAX remaining after 60 days will be distributed evenly to all current Hauler owners.  
         </section>
           </div>
       </section>
