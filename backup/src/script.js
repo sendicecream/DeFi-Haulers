@@ -320,3 +320,9 @@ document.addEventListener("visibilitychange", () => {
 		window.localStorage.removeItem("WALLETCONNECT_DEEPLINK_CHOICE");
 	}
 });
+
+$(".resToggle").click(function () {
+	$(".the-nav").toggleClass("active");
+});
+
+

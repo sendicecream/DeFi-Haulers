@@ -32,12 +32,14 @@ export function App() {
                                   <span className="navbar-toggler-icon">
                                   </span>
                               </button>
-                              <a className="navbar-brand" href="#">
-                                  <img src="https://assets.codepen.io/7282469/Asset+3_1.svg" />
-                              </a>
+                            
                               <div className="collapse navbar-collapse" id="navbarNav">
                                   <ul className="navbar-nav">
+                                        <a className="navbar-brand" href="#">
+                                  <img src="https://assets.codepen.io/7282469/Asset+3_1.svg" />
+                              </a>
                                       <li className="nav-item active">
+                                          
                                           <a className="nav-link scroll" href="#roadmap">
                                               Roadmap
                                           </a>
@@ -54,20 +56,26 @@ export function App() {
                                           </a>
                                       </li>
                                       <li className="nav-item">
-                                          <a className="nav-link scroll" href="#Twitter" style={{"color": "#1DA1F2"}}>
-                                              Twitter
-                                          </a>
+                                          <a className="nav-link scroll" a href="https://twitter.com/DefiHaulers" target="_blank" style={{"color": "#1DA1F2"}}>
+                                          Twitter</a>
                                       </li>
                                       <li className="nav-item">
-                                          <a className="nav-link scroll" href="#Discord" style={{"color": "#7289DA"}}>
+                                          <a className="nav-link scroll" a href="https://discord.gg/gcfT8M2s" target="_blank" style={{"color": "#1DA1F2"}}>
                                               Discord
                                           </a>
                                       </li>
-                                  </ul>
+                                      <li className="nav-item">
+                                          <a className="nav-link scroll" href="#connect">
+                                              <ConnectButton></ConnectButton>
+                                          </a>
+                                      </li>
+                      </ul>
+                                 
                               </div>
-                              <ConnectButton />
+                            
                           </div>
                       </nav>
+
                   </header>
                   <section className="clickbait" id="pricing">
                       <div className="wrapper">

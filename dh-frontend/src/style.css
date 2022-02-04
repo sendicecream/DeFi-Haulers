@@ -157,7 +157,7 @@ p {
 }
 
 .nav-link {
-  display: inline-block;
+  display: inline-flex;
   color: #f4eedf;
   font-family: "Ropa Sans", sans-serif;
   font-size: 16px;
@@ -179,13 +179,17 @@ p {
   padding-bottom: 5px;
 }
 
+
+
 .connect-div {
-  width: 700px;
+  width: 400px;
   display: flex;
   flex-direction: row;
-  justify-content: end;
-  align-items: center;
-}
+flex-flow: row wrap;
+justify-content: center;
+  align-items: center;}
+
+
 
 .btn-success {
   color: #333333;
@@ -271,8 +275,20 @@ p {
   bottom: 1rem;
 }
 
+.navbar-brand{ 
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+
+}
+
 .navbar {
   padding: 0 15px;
+  
 }
 
 .container {
@@ -286,15 +302,25 @@ p {
   margin-right: auto;
 }
 
+
+
 .navbar-nav {
+  
   display: flex;
+  align-items: center;
   flex-direction: row;
   list-style-type: none;
   text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+
 .navbar-inverse .navbar-nav .nav-link {
-  display: block;
+  display: flex;
+    align-items: center;
+  flex-direction: row;
+  flex-basis: 100%;
   padding: 8px;
   max-width: 100%;
   background: #333333;
@@ -318,9 +344,9 @@ p {
   font-family: "Ropa Sans", sans-serif;
   font-size: 16px;
   color: #f4eedf;
-  padding: 10px;
+  padding: 5px;
   text-align: left;
-  line-height: 1.75;
+  line-height: 1.55;
   background-color: #333333;
 }
 
@@ -556,3 +582,4 @@ height: 400px;
 height: 400px;
   background: url(https://assets.codepen.io/7282469/drgr.png) no-repeat;
 }
+
