@@ -56,10 +56,10 @@ export function App() {
                 <a href="#About">About</a>
               </li>
               <li class="nav-link">
-                <a href="https://twitter.com/DefiHaulers">Twitter</a>
+                <a href="https://twitter.com/DefiHaulers" target="_blank">Twitter</a>
               </li>
               <li class="nav-link">
-                <a href="https://discord.gg/z3CEajkg">Discord</a>
+                <a href="https://discord.gg/z3CEajkg" target="_blank">Discord</a>
               </li>
               <li>
                 <ConnectButton />
