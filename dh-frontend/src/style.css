@@ -108,8 +108,8 @@ h5 {
 
 h6 {
   font-family: "Ropa Sans", sans-serif;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 38px;
+  font-weight: 600;
   line-height: 1.55;
   text-align: left;
   color: #f4eedf;
@@ -315,8 +315,9 @@ p {
   font-family: "Ropa Sans", sans-serif;
   font-size: 18px;
   color: #f4eedf;
-  padding: 20px;
+  padding: 10px;
   text-align: left;
+  line-height: 2.25;
   background-color: #333333;
 }
 
@@ -343,7 +344,7 @@ p {
 /*COLUMN STRUCTURE */
 .wrapper {
   padding: 5px;
-  max-width: 920px;
+  max-width: 960px;
   width: 95%;
   margin: 10px auto;
   justify-content: center;
