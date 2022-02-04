@@ -338,8 +338,8 @@ p {
 
 /*COLUMN STRUCTURE */
 .wrapper {
-  padding: 15px;
-  max-width: 860px;
+  padding: 10px;
+  max-width: 900px;
   width: auto;
   margin: 5px auto;
   justify-content: center;
@@ -354,7 +354,7 @@ p {
 }
 
 .column {
-  flex: 3;
+  flex: 1;
   border: 0px solid gray;
   margin: 5px;
   padding: 10px;
@@ -385,20 +385,20 @@ p {
 
 .exploded {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height:350px;
   background: url(https://assets.codepen.io/7282469/4t34t34.png) no-repeat;
 }
 .exploded:hover {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   background: url(https://assets.codepen.io/7282469/drgr.png) no-repeat;
 }
 
@@ -679,7 +679,7 @@ svg {
 }
 .header-banner-top .horizontal-nav a:hover,
 .header-banner-top .horizontal-nav .active-link a {
-  color: #fff;
+  color: #f4eedf;
 }
 .header-banner-top .horizontal-nav .folder ul {
   background-color: #3a3630;
@@ -712,7 +712,7 @@ svg {
   margin: 0 0 20px;
 }
 .header-banner-top .banner .site-title a {
-  color: #fff;
+  color: #f4eedf;
   text-decoration: none;
 }
 .header-banner-top .banner .site-tagline {
@@ -748,7 +748,7 @@ svg {
     cursor: pointer;
   }
   .header-banner-top .mobile-menu-label {
-    color: #fff;
+    color: #f4eedf;
     background-color: #292929;
     padding: 1.5em 1em;
     text-decoration: none;
@@ -765,4 +765,39 @@ svg {
   .header-banner-top .mobile-menu-box:checked ~ .mobile-menu-label:before {
     content: "Close";
   }
+}
+
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 3px;
+  font-family: "Ropa Sans", sans-serif;
+	font-size: 18px;
+	color: #f4eedf;
+	text-decoration: none;	
+}
+
+
+.yellow
+{
+	background-color: #ce8628;
+	border-bottom: 5px solid #af701d;
+	text-shadow: 0px -2px #af701d;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
 }

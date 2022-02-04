@@ -50,19 +50,25 @@ export function App() {
                 />
               </li>
               <li class="active-link">
-              <a href="#roadmap">Roadmap</a>
+                <a href="#roadmap">Roadmap</a>
               </li>
               <li>
                 <a href="#about">About</a>
               </li>
               <li class="nav-link">
-                <a href="https://nftrade.com" target="_blank">Pre-Owned</a>
+                <a href="https://nftrade.com" target="_blank">
+                  Pre-Owned
+                </a>
               </li>
               <li class="nav-link">
-                <a href="https://twitter.com/DefiHaulers" target="_blank">Twitter</a>
+                <a href="https://twitter.com/DefiHaulers" target="_blank">
+                  Twitter
+                </a>
               </li>
               <li class="nav-link">
-                <a href="https://discord.gg/z3CEajkg" target="_blank">Discord</a>
+                <a href="https://discord.gg/z3CEajkg" target="_blank">
+                  Discord
+                </a>
               </li>
               <li>
                 <ConnectButton />
@@ -95,6 +101,9 @@ export function App() {
         <div className="wrapper">
           <section className="columns">
             <div className="column">
+              <div class="exploded"></div>
+            </div>
+            <div className="column">
               <h6>Hauler [ haw-ler ]</h6>
               <h6>
                 <span className="h8">noun</span> :
@@ -112,13 +121,19 @@ export function App() {
                 <span className="h8">4. &nbsp;</span>
                 Slang. A car capable of very high speeds.
               </div>
-
+              <br></br>
+              <span className="preown">
+                {" "}
+                <a
+                  href="https://nftrade.com"
+                  target="_blank"
+                  class="action-button shadow animate yellow"
+                >
+                  Browse Pre-Owned
+                </a>
+              </span>
             </div>
-            <div className="column">
-              <div class="exploded"></div>
-</div>
           </section>
-      
         </div>
       </section>
       <section className="clickbait5" id="roadmap">
@@ -175,8 +190,8 @@ export function App() {
           <section className="columns">
             The trade-in payout fund will start with a balance of 2,000 AVAX,
             and will operate for 60 days from time of mint close, or until the
-            2,000 AVAX balance is depleted - whichever occurs first. Any surplus AVAX after 60 days will be distributed evenly amongst Hauler
-            owners.
+            2,000 AVAX balance is depleted - whichever occurs first. Any surplus
+            AVAX after 60 days will be distributed evenly amongst Hauler owners.
           </section>
         </div>
       </section>
