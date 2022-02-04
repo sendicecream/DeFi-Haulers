@@ -126,8 +126,10 @@ export function App() {
                                       </div>
                                   
                               </div>
-                              <div className="column">
-                              <img src="https://assets.codepen.io/7282469/4t34t34.png" />                                                             </div>
+                           
+                                  
+                              <div class="exploded"> 
+                                                                                        </div>
                           </section>
                       </div>
                   </section>

@@ -342,9 +342,9 @@ p {
 
 /*COLUMN STRUCTURE */
 .wrapper {
-  padding: 15px;
-  max-width: 980px;
-  width: 100%;
+  padding: 5px;
+  max-width: 920px;
+  width: 95%;
   margin: 10px auto;
   justify-content: center;
 }
@@ -361,6 +361,8 @@ p {
   border: 0px solid gray;
   margin: 2px;
   padding: 5px;
+  justify-content: center;
+
 }
 .column:first-child {
   margin-left: 0;
@@ -383,6 +385,10 @@ p {
 .column1:last-child {
   margin-right: 0;
 }
+
+
+
+
 
 .footer {
   font-family: "Open Sans Pro", sans-serif;
@@ -528,3 +534,22 @@ svg {
   line-height: 0.75rem;
 }
 
+.exploded
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+width: 400px;
+height: 400px;
+  background: url(https://assets.codepen.io/7282469/4t34t34.png) no-repeat;
+}
+.exploded:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 400px;
+height: 400px;
+  background: url(https://assets.codepen.io/7282469/drgr.png) no-repeat;
+}
