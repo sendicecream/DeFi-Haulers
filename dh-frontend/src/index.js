@@ -188,7 +188,7 @@ export function App() {
             The trade-in payout fund will start with a balance of 2,000 AVAX,
             and will operate for 60 days from time of mint close, or until the
             2,000 AVAX balance is depleted - whichever occurs first. Any surplus
-            AVAX after 60 days will be distributed evenly amongst Hauler owners.
+            AVAX after 60 days will be distributed evenly amongst Hauler owners. The Trade-In program will only go live if all Haulers are sold. All 6,210 Haulers must be sold before Degen Motors will begin accepting trade-in's. 
           </section>
         </div>
       </section>
