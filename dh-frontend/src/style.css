@@ -581,6 +581,37 @@ p {
   margin-right: 0;
 }
 
+
+.column3 {
+  flex: 1;
+  border-top: 0px dashed #f4eedf;
+  border-bottom: 0px dashed #f4eedf;
+  margin: 5px auto;
+  padding: 10px;
+  background: url('https://assets.codepen.io/7282469/4t34t34.png') no-repeat;
+}
+.column1:first-child {
+  margin-left: 0;
+}
+.column1:last-child {
+  margin-right: 0;
+}
+
+.column3:hover {
+  flex: 1;
+  border-top: 0px dashed #f4eedf;
+  border-bottom: 0px dashed #f4eedf;
+  margin: 5px auto;
+  padding: 10px;
+  background: url('https://assets.codepen.io/7282469/drgr.png') no-repeat;
+}
+.column1:first-child {
+  margin-left: 0;
+}
+.column1:last-child {
+  margin-right: 0;
+}
+
 @media screen and (max-width: 1280px) {
   .columns .column {
     margin-bottom: 5px;

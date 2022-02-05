@@ -187,7 +187,7 @@ A total of 6,210 Haulers are ready to be minted into existence. Full rarity brea
                 </a>
               </span>
             </div>
-            <div className="column"></div>
+            <div className="column3"></div>
           </section>
         </div>
       </section>
