@@ -199,7 +199,7 @@ body {
   background-color: #3a3630;
 }
 .header-banner-top .banner .banner-image {
-  background: url(http://farm7.staticflickr.com/6169/6161511237_c1834b35bc_b.jpg)
+  background: url("http://farm7.staticflickr.com/6169/6161511237_c1834b35bc_b.jpg")
     center center;
   background-size: cover;
   opacity: 0.5;
@@ -612,7 +612,6 @@ p {
   box-shadow: 0 0px 100px 0 #222222, 0 0px 0px 0 #222222;
   border: 3px solid #f4eedf;
   background: #f4eedf;
-  background-image: url("");
   display: grid;
   grid-template-columns: 35% auto;
   color: #3a3630;

@@ -32,39 +32,39 @@ export function App() {
         href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Ropa+Sans:ital@0;1&display=swap"
         rel="stylesheet"
       />
-      <header class="header-banner-top">
-        <div class="main-navigation">
+      <header className="header-banner-top">
+        <div className="main-navigation">
           <input
             type="checkbox"
             name="mobile-menu-toggle"
             id="mobile-menu-toggle"
-            class="mobile-menu-box"
+            className="mobile-menu-box"
           />
-          <nav class="horizontal-nav primary-wrapper" role="navigation">
+          <nav className="horizontal-nav primary-wrapper" role="navigation">
             <ul>
-              <li class="active-link">
+              <li className="active-link">
                 <img
                   src="https://assets.codepen.io/7282469/Asset+3.svg"
                   id="logo"
                 />
               </li>
-              <li class="active-link">
+              <li className="active-link">
                 <a href="#roadmap">Roadmap</a>
               </li>
               <li>
                 <a href="#about">About</a>
               </li>
-              <li class="nav-link">
+              <li className="nav-link">
                 <a href="https://nftrade.com" target="_blank">
                   Pre-Owned
                 </a>
               </li>
-              <li class="nav-link">
+              <li className="nav-link">
                 <a href="https://twitter.com/DefiHaulers" target="_blank">
                   Twitter
                 </a>
               </li>
-              <li class="nav-link">
+              <li className="nav-link">
                 <a href="https://discord.gg/z3CEajkg" target="_blank">
                   Discord
                 </a>
@@ -76,8 +76,8 @@ export function App() {
           </nav>
 
           <label
-            for="mobile-menu-toggle"
-            class="mobile-menu-label hidden"
+            htmlFor="mobile-menu-toggle"
+            className="mobile-menu-label hidden"
           ></label>
         </div>
       </header>
@@ -88,24 +88,25 @@ export function App() {
               <br />
               <div id="container2">	
 	
-    <div class="product-details">
+    <div className="product-details">
       
     <h3>DeFi Haulers </h3>
-<span class="hintnew">Gen. 01 Mint Sale</span> 
+<span className="hintnew">Gen. 01 Mint Sale</span> 
 
 
   
     
   
-      <p class="information">
+      <p className="information">
     
       1 AVAX per mint. No max per wallet.
 A total of 6,210 Haulers are ready to be minted into existence. Full rarity breakdown, metadata, and creation process information will be released shortly after mint close.    
       </p>
+      <MintButton />
   
       
 
-  <div class="control">
+  <div className="control">
     
  
 
@@ -120,12 +121,12 @@ A total of 6,210 Haulers are ready to be minted into existence. Full rarity brea
     
 
     
-  <div class="product-image">
+  <div className="product-image">
     
     <img src="https://assets.codepen.io/7282469/haulergif.gif" alt="Haulers"/>
     
 
-  <div class="info">
+  <div className="info">
     <h5>Vehicle Info</h5>
     <ul>
       <li><strong>Background: </strong>N/A</li>
@@ -146,9 +147,6 @@ A total of 6,210 Haulers are ready to be minted into existence. Full rarity brea
   
   
               <center>
-             
-                
-  <MintButton />
   
               </center>
             </div>
@@ -183,7 +181,7 @@ A total of 6,210 Haulers are ready to be minted into existence. Full rarity brea
                 <a
                   href="https://nftrade.com"
                   target="_blank"
-                  class="action-button shadow animate yellow"
+                  className="action-button shadow animate yellow"
                 >
                   Browse Pre-Owned
                 </a>
