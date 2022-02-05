@@ -86,10 +86,70 @@ export function App() {
           <section className="columns">
             <div className="column">
               <br />
+              <div id="container2">	
+	
+    <div class="product-details">
+      
+    <h3>DeFi Haulers </h3>
+<span class="hintnew">Gen. 01 Mint Sale</span> 
 
+
+  
+    
+  
+      <p class="information">
+    
+      1 AVAX per mint. No max per wallet.
+A total of 6,210 Haulers are ready to be minted into existence. Full rarity breakdown, metadata, and creation process information will be released shortly after mint close.    
+      </p>
+  
+      
+
+  <div class="control">
+    
+ 
+
+    
+  </div>
+        
+  </div>
+    
+ 
+    
+    
+    
+
+    
+  <div class="product-image">
+    
+    <img src="https://assets.codepen.io/7282469/haulergif.gif" alt="Haulers"/>
+    
+
+  <div class="info">
+    <h5>Vehicle Info</h5>
+    <ul>
+      <li><strong>Background: </strong>N/A</li>
+      <li><strong>Wheels: </strong>N/A</li>
+      <li><strong>Body: </strong>N/A</li>
+      <li><strong>Tinted Windows: </strong>N/A</li>
+      <li><strong>Front End: </strong>N/A</li>
+      <li><strong>Roof Front: </strong>N/A</li>
+      <li><strong>Roof Rear: </strong>N/A</li>
+      <li><strong>Side Panel:</strong>N/A</li>
+      <li><strong>Breakdown:</strong>N/A</li>
+    </ul>
+  </div>
+  </div>
+  
+  </div>
+  
+  
+  
               <center>
-                <MintButton />
-                <br />
+             
+                
+  <MintButton />
+  
               </center>
             </div>
           </section>
