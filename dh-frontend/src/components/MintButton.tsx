@@ -38,8 +38,9 @@ const MintButton = () => {
   return (
     <div className="mint-interface">
       {(value <= 0) ? <span className="">Invalid number of haulers: {value}</span> : <span style={{"display": "none"}}></span>}
-      <input type="number" id="quantity" name="quantity" onChange={handleInput} min="1" />
+      <input className="num-to-mint" type="number" id="quantity" name="quantity" onChange={handleInput} min="1" />
       {state.status == "Mining" ? <span className="">Transaction pending...</span> : <span style={{"display": "none"}}></span>}
+      <span>{state.status}</span>
       <button className={`sendEthButton btn btn-success`} disabled={!account} onClick={() => {handleClick()}}>
         Mint
       </button>

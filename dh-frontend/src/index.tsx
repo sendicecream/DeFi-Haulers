@@ -6,22 +6,55 @@ import ConnectButton from "./components/ConnectButton";
 import {
   Mainnet,
   DAppProvider,
+  LocalMulticallProvider,
   useEtherBalance,
   useEthers,
   Config,
+  ChainId,
+  MULTICALL_ADDRESSES
 } from "@usedapp/core";
+
+// const config: Config = {
+//     multicallAddresses: {
+//         ...MULTICALL_ADDRESSES,
+//     },
+//     supportedChains: [
+//         ChainId.Mainnet,
+//         ChainId.Goerli,
+//         ChainId.Kovan,
+//         ChainId.Rinkeby,
+//         ChainId.Ropsten,
+//         ChainId.xDai,
+//         ChainId.BSC,
+//         ChainId.Localhost,
+//         ChainId.Hardhat,
+//     ],
+// };
+
 ReactDOM.render(
   <React.StrictMode>
     <DAppProvider>
-      <App></App>
+      <App />
     </DAppProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
 
+
 export function App() {
   const { activateBrowserWallet, account } = useEthers();
   const etherBalance = useEtherBalance(account);
+
+  var fullImg = document.querySelector(".full-img");
+  var miniImg = document.querySelectorAll(".mini-img");
+
+  const changeImg = (x) => {
+
+      var targetImg = miniImg[x - 1];
+      var imgAttr = targetImg.getAttribute("src");
+
+      fullImg.setAttribute("src", imgAttr);
+  }
 
   return (
     <div>
@@ -82,7 +115,7 @@ export function App() {
         </div>
       </header>
       <section className="clickbait4" id="mint">
-        <div className="wrapper">
+        <div className="mint-wrapper">
           <section className="main-card">
             <div className="card-content">
               <div className="content-left">
@@ -101,24 +134,24 @@ export function App() {
                   metadata, and creation process information will be released
                   shortly after mint close.
                 </h1>
-                <div class="mini-imgs">
+                <div className="mini-imgs">
                   <img
-                    class="mini-img"
+                    className="mini-img"
                     src="https://assets.codepen.io/7282469/90.png"
                     alt="myhaulers"
-                    onclick="changeImg(1)"
+                    onClick={() => {changeImg(1)}}
                   />
                   <img
-                    class="mini-img"
+                    className="mini-img"
                     src="https://assets.codepen.io/7282469/93.png"
                     alt="myhaulers"
-                    onclick="changeImg(2)"
+                    onClick={() => {changeImg(2)}}
                   />
                   <img
-                    class="mini-img"
+                    className="mini-img"
                     src="https://assets.codepen.io/7282469/152.png"
                     alt="myhaulers"
-                    onclick="changeImg(3)"
+                    onClick={() => {changeImg(3)}}
                   />
                 </div>
                 <MintButton />
