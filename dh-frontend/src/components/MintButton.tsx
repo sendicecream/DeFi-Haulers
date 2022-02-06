@@ -41,7 +41,7 @@ const MintButton = () => {
       {(account && avaxBalance) ? <span className="information-text">Your balance: {formatEther(avaxBalance).substring(0,6)} AVAX</span> : <span style={{"display": "none"}}></span>}
       <div className="mint-buttons">
         <input className="num-to-mint" type="number" id="quantity" name="quantity" onChange={handleInput} min="1" />
-        {(account && (chainId === 43114 || chainId === 4) && (state.status != "PendingSignature") && value >= 1)
+        {(account && avaxBalance && (chainId === 43114 || chainId === 4) && (state.status != "PendingSignature") && value >= 1 && (formatEther(avaxBalance) >= value))
           ?
           <button className={`sendEthButton btn btn-success`} disabled={!account} onClick={() => {handleClick()}}>Mint</button>
           :
