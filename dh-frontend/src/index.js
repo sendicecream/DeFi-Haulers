@@ -82,76 +82,28 @@ export function App() {
         </div>
       </header>
       <section className="clickbait4" id="mint">
-        <div className="wrapper">
-          <section className="columns">
-            <div className="column">
-              <br />
-              <div id="container2">	
-	
-    <div className="product-details">
-      
-    <h3>DeFi Haulers </h3>
-<span className="hintnew">Gen. 01 Mint Sale</span> 
-
-
-  
-    
-  
-      <p className="information">
-    
-      1 AVAX per mint. No max per wallet.
-A total of 6,210 Haulers are ready to be minted into existence. Full rarity breakdown, metadata, and creation process information will be released shortly after mint close.    
-      </p>
-      <MintButton />
-  
-      
-
-  <div className="control">
-    
- 
-
-    
-  </div>
-        
-  </div>
-    
- 
-    
-    
-    
-
-    
-  <div className="product-image">
-    
-    <img src="https://assets.codepen.io/7282469/haulergif.gif" alt="Haulers"/>
-    
-
-  <div className="info">
-    <h5>Vehicle Info</h5>
-    <ul>
-      <li><strong>Background: </strong>N/A</li>
-      <li><strong>Wheels: </strong>N/A</li>
-      <li><strong>Body: </strong>N/A</li>
-      <li><strong>Tinted Windows: </strong>N/A</li>
-      <li><strong>Front End: </strong>N/A</li>
-      <li><strong>Roof Front: </strong>N/A</li>
-      <li><strong>Roof Rear: </strong>N/A</li>
-      <li><strong>Side Panel:</strong>N/A</li>
-      <li><strong>Breakdown:</strong>N/A</li>
-    </ul>
-  </div>
-  </div>
-  
-  </div>
-  
-  
-  
-              <center>
-  
-              </center>
+<div className="wrapper">
+      <section className="main-card">
+        <div className="card-content">
+            <div className="content-left">
+                <img className="full-img" src='https://assets.codepen.io/7282469/haulergif.gif' alt="haulers"/>
             </div>
-          </section>
+            <div className="content-right">
+  
+                <h3>DeFi Haulers</h3><h1>Mint Sale</h1>
+                <h1>1 AVAX per mint. No max per wallet. A total of 6,210 Haulers are ready to be minted into existence. Full rarity breakdown, metadata, and creation process information will be released shortly after mint close.</h1>
+                <div class="mini-imgs">
+                    <img class="mini-img" src='https://assets.codepen.io/7282469/90.png' alt="myhaulers" onclick="changeImg(1)"/>
+                    <img class="mini-img" src='https://assets.codepen.io/7282469/93.png' alt="myhaulers" onclick="changeImg(2)"/>
+                    <img class="mini-img" src='https://assets.codepen.io/7282469/152.png' alt="myhaulers" onclick="changeImg(3)"/>
+                </div>
+                <MintButton />
+            </div>
         </div>
+     
+    </section>
+     
+      </div>
       </section>
 
       <section className="clickbait2" id="roadmap">

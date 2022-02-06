@@ -632,6 +632,9 @@ p {
   }
 }
 
+
+
+
 :root {
   --card-size: 200px;
 }
@@ -794,155 +797,193 @@ svg {
   border-bottom: 1px solid;
 }
 
-#container2{
-	box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
-	background: rgba(255, 255, 255, 0.90);
-	text-align: center;
-	border-radius: 5px;
-	overflow: hidden;
-	margin: 5em auto;
-	height: 350px;
-	width: 700px;
-	
+.main-card {
+  position: relative;
+  width: 770px;
+  height: 470px;
+  margin: 20px;
+  border-radius: 10px;
+  font-family: 'neuzeit-grotesk', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #303336;
+  background-color: #fff;
+  box-shadow: 0 40px 40px -20px #8fc7d544;
 }
 
-
-
-/* 	Product details  */
-.product-details {
-	position: relative;
-	text-align: left;
-	overflow: hidden;
-	padding: 30px;
-	height: 100%;
-	float: left;
-	width: 40%;
-
+.main-card .card-content {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
 }
 
-/* 	Product Name */
-#container2 .product-details h1{
-  font-family: "Ropa Sans", sans-serif;
-	display: inline-block;
-	position: relative;
-	font-size: 34px;
-	color: #344055;
-	margin: 0;
-	
+.main-card .content-left {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f6f6f6;
 }
 
-
-
-
-
-/*Product Rating  */
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
+.main-card .content-left img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: center;
 }
 
-
-/* The most important information about the product */
-#container2 .product-details > p {
-  font-family: "Ropa Sans", sans-serif;
-	text-align: left;
-	font-size: 16px;
-	color: #3a3630;
-	
+.main-card .content-right {
+  position: relative;
+  width: calc(100% - 300px);
+  height: 100%;
+  padding-left: 35px;
+  text-align: left;
 }
 
-.hintnew {text-decoration: underline dashed; padding-bottom: 15px;}
-
-/* control */
-
-.control{
-	position: absolute;
-	bottom: 20%;
-	left: 22.8%;
-	
-}
-/* the Button */
-
-.btn:hover{transform: translateY(-4px);}
-
-.btn span {
-  font-family: "Ropa Sans", sans-serif;
-	transition: transform 0.3s;
-	display: inline-block;
-  padding: 10px 20px;
-	font-size: 1.2em;
-	margin:0;
-	
-}
-/* shopping cart icon */
-.btn .price, .shopping-cart{
-	background: #333;
-	border: 0;
-	margin: 0;
+.main-card .tag {
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+  width: fit-content;
+  padding: 8px 25px;
+  border-radius: 10px;
+  background-color: #005AEE;
 }
 
-.btn .price {
-	transform: translateX(-10%); padding-right: 15px;
+.main-card .tag h6 {
+  color: #fff;
+  font-size: .75em;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-/* the Icon */
-.btn .shopping-cart {
-	transform: translateX(-100%);
+.main-card .mini-imgs {
   position: absolute;
-	background: #333;
-	z-index: 1;
-  left: 0;
-  top: 0;
+  display: flex;
+  bottom: 0;
+  height: 105px;
 }
 
-/* buy */
-.btn .buy {z-index: 3; font-weight: bolder;}
-
-.btn:hover .price {transform: translateX(-110%);}
-
-.btn:hover .shopping-cart {transform: translateX(0%);}
-
-.information{padding:10px;}
-
-/* product image  */
-.product-image {
-	transition: all 0.3s ease-out;
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	float: right;
-	width: 50%;
-	display: inline-block;
+.main-card .mini-imgs img {
+  width: 105px;
+  height: 105px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  transition: 300ms;
 }
 
-#container2 img {width: 100%;height: 100%;}
-
-.info {
-    background: rgba(27, 26, 26, 0.9);
-    font-family: "Ropa Sans", sans-serif;
-    transition: all 0.3s ease-out;
-    transform: translateX(-100%);
-    position: absolute;
-    line-height: 1.5;
-    text-align: left;
-    font-size: 16px;
-    cursor: no-drop;
-    color: #FFF;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
+.main-card .mini-imgs img:hover {
+  opacity: .75;
 }
 
-.info h2 {text-align: center}
-.product-image:hover .info{transform: translateX(0);}
+.main-card .mini-imgs img:nth-child(2) {
+  margin: 0 10px;
+}
 
-.info ul li{transition: 0.3s ease;}
-.info ul li:hover{transform: translateX(50px) scale(1.3);}
+/* Display this style when screen-width is lower than 992px */
+@media only screen and (max-width: 992px) {
 
-.product-image:hover img {transition: all 0.3s ease-out;}
-.product-image:hover img {transform: scale(1.2, 1.2);}
+  main {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      height: auto;
+      min-height: 80vh;
+  }
 
+  .main-card {
+      position: relative;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      margin: 20px 20px;
+  }
+
+  .main-card .card-content {
+      flex-direction: column;
+  }
+
+  .main-card .content-left {
+      width: 100%;
+      height: 300px;
+  }
+
+  .main-card .content-right {
+      width: 100%;
+      height: auto;
+      padding: 5px 0 0;
+  }
+
+  .main-card .tag {
+      left: 0;
+      transform: translateX(0);
+  }
+
+  .main-card .mini-imgs {
+      position: absolute;
+      display: flex;
+      top: 0;
+      margin-top: 35px;
+      height: 105px;
+  }
+
+}
+
+/* Display this style when screen-width is lower than 500px */
+@media only screen and (max-width: 500px) {
+
+  .main-card {
+      margin: 120px 20px;
+  }
+
+  .main-card .card-content {
+      padding: 25px;
+  }
+
+  .main-card .content-right {
+      width: 100%;
+      height: auto;
+      padding: 20px 0 0;
+  }
+
+  .main-card .mini-imgs {
+      margin-top: 20px;
+  }
+
+  .main-card .mini-imgs img {
+      width: 60px;
+      height: 60px;
+  }
+
+}
+
+/* Just Copy The Code Above */
+/* ======================== */
+
+/* ----------- */
+/* UI Designer */
+/* ----------- */
+
+.designer {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 400;
+  color: #46a2b9;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.designer a {
+  text-decoration: none;
+  color: #23515d;
+}
