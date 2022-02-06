@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import '../style.css';
-import { useEthers, useContractFunction } from '@usedapp/core'
+import { useEthers } from '@usedapp/core'
 import { formatEther, formatUnits } from '@ethersproject/units'
 import { utils } from 'ethers'
 import { Contract } from '@ethersproject/contracts'
+import { useContractFunction__fix, connectContractToSigner } from './UseDAppFix'
 
 const config = require('./config.json')
 console.log(config.address)
@@ -16,7 +17,7 @@ const MintButton = () => {
   contract.connect(account)
 
   const { state, send } = 
-    useContractFunction(
+    useContractFunction__fix(
       contract,
       'mintHauler',
        { transactionName: 'Mint Haulers'}
