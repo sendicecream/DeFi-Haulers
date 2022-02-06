@@ -581,14 +581,13 @@ p {
   margin-right: 0;
 }
 
-
 .column3 {
   flex: 1;
   border-top: 0px dashed #f4eedf;
   border-bottom: 0px dashed #f4eedf;
   margin: 5px auto;
   padding: 10px;
-  background: url('https://assets.codepen.io/7282469/4t34t34.png') no-repeat;
+  background: url("https://assets.codepen.io/7282469/4t34t34.png") no-repeat;
 }
 .column1:first-child {
   margin-left: 0;
@@ -603,7 +602,7 @@ p {
   border-bottom: 0px dashed #f4eedf;
   margin: 5px auto;
   padding: 10px;
-  background: url('https://assets.codepen.io/7282469/drgr.png') no-repeat;
+  background: url("https://assets.codepen.io/7282469/drgr.png") no-repeat;
 }
 .column1:first-child {
   margin-left: 0;
@@ -631,9 +630,6 @@ p {
     margin: 0 0 5px 0;
   }
 }
-
-
-
 
 :root {
   --card-size: 200px;
@@ -803,7 +799,7 @@ svg {
   height: 470px;
   margin: 20px;
   border-radius: 10px;
-  font-family: 'neuzeit-grotesk', sans-serif;
+  font-family: "neuzeit-grotesk", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1em;
@@ -852,12 +848,12 @@ svg {
   width: fit-content;
   padding: 8px 25px;
   border-radius: 10px;
-  background-color: #005AEE;
+  background-color: #005aee;
 }
 
 .main-card .tag h6 {
   color: #fff;
-  font-size: .75em;
+  font-size: 0.75em;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -880,7 +876,7 @@ svg {
 }
 
 .main-card .mini-imgs img:hover {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .main-card .mini-imgs img:nth-child(2) {
@@ -889,79 +885,75 @@ svg {
 
 /* Display this style when screen-width is lower than 992px */
 @media only screen and (max-width: 992px) {
-
   main {
-      display: flex;
-      justify-content: center;
-      align-items: start;
-      height: auto;
-      min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+    min-height: 80vh;
   }
 
   .main-card {
-      position: relative;
-      justify-content: center;
-      width: 100%;
-      height: auto;
-      margin: 20px 20px;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px 20px;
   }
 
   .main-card .card-content {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .main-card .content-left {
-      width: 100%;
-      height: 300px;
+    width: 100%;
+    height: 300px;
   }
 
   .main-card .content-right {
-      width: 100%;
-      height: auto;
-      padding: 5px 0 0;
+    width: 100%;
+    height: auto;
+    padding: 5px 0 0;
   }
 
   .main-card .tag {
-      left: 0;
-      transform: translateX(0);
+    left: 0;
+    transform: translateX(0);
   }
 
   .main-card .mini-imgs {
-      position: absolute;
-      display: flex;
-      top: 0;
-      margin-top: 35px;
-      height: 105px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    margin-top: 35px;
+    height: 105px;
   }
-
 }
 
 /* Display this style when screen-width is lower than 500px */
 @media only screen and (max-width: 500px) {
-
   .main-card {
-      margin: 120px 20px;
+    margin: 120px 20px;
   }
 
   .main-card .card-content {
-      padding: 25px;
+    padding: 25px;
   }
 
   .main-card .content-right {
-      width: 100%;
-      height: auto;
-      padding: 20px 0 0;
+    width: 100%;
+    height: auto;
+    padding: 20px 0 0;
   }
 
   .main-card .mini-imgs {
-      margin-top: 20px;
+    margin-top: 20px;
   }
 
   .main-card .mini-imgs img {
-      width: 60px;
-      height: 60px;
+    width: 60px;
+    height: 60px;
   }
-
 }
 
 /* Just Copy The Code Above */

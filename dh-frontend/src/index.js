@@ -82,28 +82,50 @@ export function App() {
         </div>
       </header>
       <section className="clickbait4" id="mint">
-<div className="wrapper">
-      <section className="main-card">
-        <div className="card-content">
-            <div className="content-left">
-                <img className="full-img" src='https://assets.codepen.io/7282469/haulergif.gif' alt="haulers"/>
-            </div>
-            <div className="content-right">
-  
-                <h3>DeFi Haulers</h3><h1>Mint Sale</h1>
-                <h1>1 AVAX per mint. No max per wallet. A total of 6,210 Haulers are ready to be minted into existence. Full rarity breakdown, metadata, and creation process information will be released shortly after mint close.</h1>
+        <div className="wrapper">
+          <section className="main-card">
+            <div className="card-content">
+              <div className="content-left">
+                <img
+                  className="full-img"
+                  src="https://assets.codepen.io/7282469/haulergif.gif"
+                  alt="haulers"
+                />
+              </div>
+              <div className="content-right">
+                <h3>DeFi Haulers</h3>
+                <h1>Mint Sale</h1>
+                <h1>
+                  1 AVAX per mint. No max per wallet. A total of 6,210 Haulers
+                  are ready to be minted into existence. Full rarity breakdown,
+                  metadata, and creation process information will be released
+                  shortly after mint close.
+                </h1>
                 <div class="mini-imgs">
-                    <img class="mini-img" src='https://assets.codepen.io/7282469/90.png' alt="myhaulers" onclick="changeImg(1)"/>
-                    <img class="mini-img" src='https://assets.codepen.io/7282469/93.png' alt="myhaulers" onclick="changeImg(2)"/>
-                    <img class="mini-img" src='https://assets.codepen.io/7282469/152.png' alt="myhaulers" onclick="changeImg(3)"/>
+                  <img
+                    class="mini-img"
+                    src="https://assets.codepen.io/7282469/90.png"
+                    alt="myhaulers"
+                    onclick="changeImg(1)"
+                  />
+                  <img
+                    class="mini-img"
+                    src="https://assets.codepen.io/7282469/93.png"
+                    alt="myhaulers"
+                    onclick="changeImg(2)"
+                  />
+                  <img
+                    class="mini-img"
+                    src="https://assets.codepen.io/7282469/152.png"
+                    alt="myhaulers"
+                    onclick="changeImg(3)"
+                  />
                 </div>
                 <MintButton />
+              </div>
             </div>
+          </section>
         </div>
-     
-    </section>
-     
-      </div>
       </section>
 
       <section className="clickbait2" id="roadmap">
@@ -198,7 +220,10 @@ export function App() {
             The trade-in payout fund will start with a balance of 2,000 AVAX,
             and will operate for 60 days from time of mint close, or until the
             2,000 AVAX balance is depleted - whichever occurs first. Any surplus
-            AVAX after 60 days will be distributed evenly amongst Hauler owners. The Trade-In program will only go live if all Haulers are sold. All 6,210 Haulers must be sold before Degen Motors will begin accepting trade-in's. 
+            AVAX after 60 days will be distributed evenly amongst Hauler owners.
+            The Trade-In program will only go live if all Haulers are sold. All
+            6,210 Haulers must be sold before Degen Motors will begin accepting
+            trade-in's.
           </section>
         </div>
       </section>
