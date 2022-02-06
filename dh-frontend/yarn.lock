@@ -2427,7 +2427,7 @@
   resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.27.tgz#8b02a979b0b0024cc96f60e694a3f6db6b2ccab2"
   integrity sha512-x5hmIniQ9TGqOBCRqfWcmZi/U5kB0qrHMDQ9igs3nMbK0wwmYLraL4owbIwXFGR/co6/lJYJC4K/Gjn4wZY5mQ==
 
-"@usedapp/core@^0.10.0":
+"@usedapp/core@^0.10.1":
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/@usedapp/core/-/core-0.10.1.tgz#4fee95f43b8295fe510bb72c87f3884e8433c807"
   integrity sha512-hQSQfIkG9mM2nswgth4c0z9ch3CYWY2TVKcWp9cSHjUdsXj3om1oEEX0DjhWKYm7PdWcOihgJh4bYXayD/dqeQ==

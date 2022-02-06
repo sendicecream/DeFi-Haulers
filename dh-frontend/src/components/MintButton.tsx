@@ -7,7 +7,6 @@ import { Contract } from '@ethersproject/contracts'
 import { useContractFunction__fix, connectContractToSigner } from './UseDAppFix'
 
 const config = require('./config.json')
-console.log(config.address)
 const haulersInterface = new utils.Interface(config.abi)
 const haulersContractAddress = config.address // REPLACE
 const contract = new Contract(haulersContractAddress, haulersInterface)

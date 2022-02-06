@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./style.css";
-import MintButton from "./components/MintButton";
-import ConnectButton from "./components/ConnectButton";
+import MintButton from "./components/MintButton"
+import ConnectButton from "./components/ConnectButton"
+import MintRemainderTag from "./components/MintRemainderTag"
 import {
   Mainnet,
   DAppProvider,
@@ -127,7 +128,7 @@ export function App() {
               </div>
               <div className="content-right">
                 <h3>DeFi Haulers</h3>
-                <h1>Mint Sale</h1>
+                <MintRemainderTag />
                 <h1>
                   1 AVAX per mint. No max per wallet. A total of 6,210 Haulers
                   are ready to be minted into existence. Full rarity breakdown,
