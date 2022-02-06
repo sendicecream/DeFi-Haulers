@@ -208,7 +208,7 @@ export function App() {
               <h3>1.</h3>
               <h2>Launch + Mint Open</h2>
               <h1>
-                DeFi Haulers launched + opened mint on February 4th, 2022.{" "}
+                DeFi Haulers launched + opened mint on February 5th, 2022.{" "}
               </h1>
               <h1>
                 <br></br>1 AVAX per mint. No max per wallet.
