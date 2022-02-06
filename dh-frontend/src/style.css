@@ -412,18 +412,56 @@ p {
   transition: all 0.2s ease-in-out;
 }
 
+.information-text {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.mint-interface {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.mint-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .btn-success {
+  height: 32px;
   color: #3a3630;
   font-family: "Source Sans Pro", sans-serif;
   background-color: #f4eedf;
-  border: 2px solid #f4eedf;
 }
 
 .btn-success:hover {
-  background-color: #ffefef;
+  background-color: #E6A543;
   cursor: pointer;
 }
 
+.disabled {
+  color: #7a7a7a;
+  background-color: #ddd;
+  cursor: cancel;
+}
+.disabled:hover {
+  color: #7a7a7a;
+  background-color: #ddd;
+}
+
+.num-to-mint {
+  border: none;
+  background-color: #f4eedf;
+  padding-left: 5px;
+  border-radius: 5px;
+  height: 32px;
+  width: 100px;
+  display: block-inline;
+  margin-right: 6px;
+}
 
 .info-subtext {
   font-family: "Ropa Sans", sans-serif;
