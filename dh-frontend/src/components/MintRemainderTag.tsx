@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEthers, useEtherBalance, useContractCall, useCall } from '@usedapp/core'
 import { formatEther, formatUnits } from '@ethersproject/units'
 import { ethers, utils } from 'ethers'
 import { Contract } from '@ethersproject/contracts'
