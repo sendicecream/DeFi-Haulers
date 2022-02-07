@@ -269,6 +269,16 @@ body {
   }
 }
 
+a {
+  transition: all 0.2s ease;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #27a1d9;
+}
+
 h1 {
   font-family: "Ropa Sans", sans-serif;
   font-size: 18px;
@@ -291,7 +301,6 @@ h2 {
 
 h3 {
   display: inline;
-  text-align: left;
   font-family: "Caveat", cursive;
   font-size: 42px;
   line-height: 1;
@@ -546,7 +555,6 @@ p {
 
 .clickbait4 {
   font-family: "Ropa Sans", sans-serif;
-  border-bottom: 1px dashed #3a3630;
   font-size: 16px;
   color: #3a3630;
   padding: 20px;
@@ -563,8 +571,6 @@ p {
 
 .clickbait5 {
   font-family: "Ropa Sans", sans-serif;
-  border-bottom: 1px dashed #3a3630;
-  border-top: 1px dashed #3a3630;
   font-size: 16px;
   color: #3a3630;
   padding: 20px;
@@ -578,6 +584,22 @@ p {
   /*   background-color: rgb(60, 151, 100); */
   background-size: 3px 3px;
   justify-content: center;
+}
+
+.provenance {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.borders-top {
+  border-top: 1px dashed #3a3630;
+}
+
+.borders-bottom {
+  border-bottom: 1px dashed #3a3630;
 }
 
 /*COLUMN STRUCTURE */

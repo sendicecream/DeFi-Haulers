@@ -115,7 +115,7 @@ export function App() {
           ></label>
         </div>
       </header>
-      <section className="clickbait4" id="mint">
+      <section className="clickbait4 borders-bottom" id="mint">
         <div className="mint-wrapper">
           <section className="main-card">
             <div className="card-content">
@@ -199,7 +199,7 @@ export function App() {
           </section>
         </div>
       </section>
-      <section className="clickbait5" id="roadmap">
+      <section className="clickbait5 borders-bottom borders-top" id="roadmap">
         <div className="wrapper">
           <header>
             <h3>Roadmap</h3>
@@ -245,7 +245,7 @@ export function App() {
           </section>
         </div>
       </section>
-      <section className="clickbait4" id="pricing">
+      <section className="clickbait4 borders-bottom" id="pricing">
         <div className="wrapper">
           <header>
             <h3>Please note:</h3>
@@ -320,6 +320,14 @@ export function App() {
           </section>
         </div>
       </section>
+      <section className="clickbait4 borders-bottom borders-top">
+        <div className="wrapper provenance">
+          <h3>Provenance</h3>
+          <span>Concatenated Hash: <a target="_blank" href="https://ipfs.io/ipfs/QmZyaNpjFeTzPFBEygeFeNUpsmUyzgrT19LodTnAhHeZt2/concatedHash.json">IPFS Link</a></span><br />
+          <span>All Hashes: <a target="_blank" href="https://ipfs.io/ipfs/QmZyaNpjFeTzPFBEygeFeNUpsmUyzgrT19LodTnAhHeZt2/provenanceHash.json">IPFS Link</a></span>
+          <span>SHA256 Hash of Concatenated Hash:<br /><span style={{"color": "#222", "background-color": "#ddddc6", "border-radius": "4px", "padding": "4px"}}>865DD9E1C0CEE4C20DE7D0D7FBA4CA52A89585B7691DCB2AAA00C185106042CE</span></span>
+        </div>
+      </section>
       <section className="clickbait5" id="pricing">
         <div className="footer">
           <h1>© DeFi Haulers LLC | 2022</h1>
@@ -331,7 +339,6 @@ export function App() {
         src="https://static.cloudflareinsights.com/beacon.min.js"
       ></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="./script.js"></script>
     </div>
   );
