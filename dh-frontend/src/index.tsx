@@ -4,6 +4,7 @@ import "./style.css";
 import MintButton from "./components/MintButton"
 import ConnectButton from "./components/ConnectButton"
 import MintRemainderTag from "./components/MintRemainderTag"
+import ProvenanceSection from './components/Provenance'
 import {
   Mainnet,
   DAppProvider,
@@ -320,14 +321,7 @@ export function App() {
           </section>
         </div>
       </section>
-      <section className="clickbait4 borders-bottom borders-top">
-        <div className="wrapper provenance">
-          <h3>Provenance</h3>
-          <span>Concatenated Hash: <a target="_blank" href="https://ipfs.io/ipfs/QmZyaNpjFeTzPFBEygeFeNUpsmUyzgrT19LodTnAhHeZt2/concatedHash.json">IPFS Link</a></span><br />
-          <span>All Hashes: <a target="_blank" href="https://ipfs.io/ipfs/QmZyaNpjFeTzPFBEygeFeNUpsmUyzgrT19LodTnAhHeZt2/provenanceHash.json">IPFS Link</a></span>
-          <span>SHA256 Hash of Concatenated Hash:<br /><span style={{"color": "#222", "background-color": "#ddddc6", "border-radius": "4px", "padding": "4px"}}>865DD9E1C0CEE4C20DE7D0D7FBA4CA52A89585B7691DCB2AAA00C185106042CE</span></span>
-        </div>
-      </section>
+      <ProvenanceSection />
       <section className="clickbait5" id="pricing">
         <div className="footer">
           <h1>© DeFi Haulers LLC | 2022</h1>
