@@ -559,22 +559,17 @@ p {
   color: #3a3630;
   padding: 20px;
   text-align: center;
-  background: radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
-  background: -webkit-radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
-  background: -moz-radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
-    radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
+  background-image: radial-gradient(#f5ab40 20%, transparent 20%),
+  radial-gradient(#d1812b 5%, transparent 5%);
+background-color: #f5ab40;
+background-position: 0 0, 50px 50px;
+background-size: 50px 50px;
 
   background-color: #f5ab40;
   background-size: 3px 3px;
 }
+
+
 
 .clickbait5 {
   font-family: "Ropa Sans", sans-serif;
@@ -582,14 +577,18 @@ p {
   color: #3a3630;
   padding: 20px;
   text-align: left;
+
+  background-image: radial-gradient(#c9c2b3 5%, transparent 5%),
+  radial-gradient(#f4eedf 5%, transparent 5%);
+background-color: #f4eedf;
+background-position: 0 0, 50px 50px;
+background-size: 50px 50px;
+
   background-color: #f4eedf;
-  background: radial-gradient(#f4eedf 15%, rgba(0, 0, 0, 0) 10%) 0 0,
-    radial-gradient(#dbcca9 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
-    radial-gradient(#dbcca9 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
-    radial-gradient(#dbcca9 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
-  background-color: #f4eedf;
-  /*   background-color: rgb(60, 151, 100); */
   background-size: 3px 3px;
+
+
+
   justify-content: center;
 }
 
