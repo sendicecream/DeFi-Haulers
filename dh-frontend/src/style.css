@@ -564,15 +564,15 @@ p {
     radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
     radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
     radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
-    background: -webkit-linear-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
+    background: -webkit-radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
     radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
     radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
     radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
-background: -moz-linear-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
+background: -moz-radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
 radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
 radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
 radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;;
-background: linear-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
+background: radial-gradient(#ce8628 15%, rgba(0, 0, 0, 0) 10%) 0 0,
 radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px,
 radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 0 0px,
 radial-gradient(#ce8628 10%, rgba(0, 0, 0, 0) 10%) 8px 8px;
