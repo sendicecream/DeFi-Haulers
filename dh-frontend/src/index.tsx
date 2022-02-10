@@ -304,7 +304,7 @@ export function App() {
                 </div>
                 <div className="skills">
                   <span className="label">Telegram:</span>
-                  <span className="value">@sendicecream</span>
+                  <span className="value">@sendicecream_was_taken</span>
                 </div>
                 <div className="skills">
                   <span className="label">Instagram:</span>
