@@ -554,6 +554,7 @@ p {
 }
 
 .clickbait4 {
+  display:flex;
   font-family: "Ropa Sans", sans-serif;
   font-size: 16px;
   color: #3a3630;
@@ -566,6 +567,7 @@ background-position: 0 0, 50px 50px;
 background-size: 50px 50px;
 
   background-size: 3px 3px;
+  
 }
 
 
@@ -590,13 +592,30 @@ background-size: 50px 50px;
   justify-content: center;
 }
 
-.provenance {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
+
+
+.clickbait6 {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 16px;
+  color: #3a3630;
+  padding: 0px;
   text-align: center;
+
+  background-image: radial-gradient(#c9c2b3 5%, transparent 5%),
+  radial-gradient(#f4eedf 5%, transparent 5%);
+background-color: #f4eedf;
+background-position: 0 0, 50px 50px;
+background-size: 50px 50px;
+
+  background-size: 3px 3px;
+
+
+
+  justify-content: center;
+  line-height:0px;
 }
+
+
 
 .borders-top {
   border-top: 1px dashed #3a3630;
@@ -609,10 +628,11 @@ background-size: 50px 50px;
 /*COLUMN STRUCTURE */
 .wrapper {
   padding: 10px;
-  max-width: 900px;
+  max-width: 860px;
   width: auto;
   margin: 5px auto;
   justify-content: center;
+  
 }
 
 .mint-wrapper {
@@ -1019,6 +1039,12 @@ svg {
     padding: 25px;
   }
 
+    padding: 10px;
+  max-width: 860px;
+  width: auto;
+  margin: 5px auto;
+  justify-content: center;
+
   .main-card .content-right {
     width: 100%;
     height: auto;
@@ -1059,3 +1085,5 @@ svg {
   text-decoration: none;
   color: #23515d;
 }
+
+

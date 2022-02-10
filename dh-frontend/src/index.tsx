@@ -326,19 +326,23 @@ export function App() {
           </section>
         </div>
       </section>
-      <ProvenanceSection />
       <section className="clickbait5" id="pricing">
         <div className="footer">
           <h1>© DeFi Haulers LLC | 2022</h1>
         </div>
+
       </section>
+ 
+
+
+
       <script
         data-cf-beacon='{"token": "871c0057683e4ee0a83d41a8635bdf57"}'
         defer=""
         src="https://static.cloudflareinsights.com/beacon.min.js"
       ></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-      <script src="./script.js"></script>
-    </div>
+      <script src="./script.js"></script></div>
+
   );
 }
