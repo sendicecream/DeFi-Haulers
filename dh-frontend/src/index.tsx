@@ -193,7 +193,7 @@ export function App() {
               <span className="preown">
                 {" "}
                 <a
-                  href="https://nftrade.com/assets/avalanche/0x27db6c8f4ada1bbb229d6a6baa61f2a41e6e2d34"
+                  href="https://marketplace.kalao.io/collection/0x27db6c8f4ada1bbb229d6a6baa61f2a41e6e2d34"
                   target="_blank"
                   className="action-button shadow animate yellow"
                 >
