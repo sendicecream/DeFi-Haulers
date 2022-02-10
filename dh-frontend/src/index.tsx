@@ -89,7 +89,7 @@ export function App() {
                 <a href="#about">About</a>
               </li>
               <li className="nav-link">
-                <a href="https://nftrade.com" target="_blank">
+                <a href="https://marketplace.kalao.io/collection/0x27db6c8f4ada1bbb229d6a6baa61f2a41e6e2d34" target="_blank">
                   Pre-Owned
                 </a>
               </li>
@@ -101,6 +101,11 @@ export function App() {
               <li className="nav-link">
                 <a href="https://discord.gg/z3CEajkg" target="_blank">
                   Discord
+                </a>
+              </li>
+              <li className="nav-link">
+                <a href="https://www.instagram.com/defihaulers/" target="_blank">
+                  Instagram
                 </a>
               </li>
               <li>
