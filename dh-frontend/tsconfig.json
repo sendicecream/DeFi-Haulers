@@ -2,10 +2,28 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
-    "module": "es6",
-    "jsx": "react",
+    "module": "esnext",
+    "jsx": "preserve",
     "target": "es5",
-    "allowJs": true
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
   },
-  "files": ["src/index.tsx"]
+  "files": [
+    "src/index.tsx"
+  ],
+  "include": [
+    "src"
+  ]
 }
