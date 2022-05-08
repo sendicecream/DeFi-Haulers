@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "jsx": "preserve",
+    "target": "es5",
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "files": [
+    "src/index.tsx", "./src/components/newFunction.tsx", "./src/components/newFunction.1.tsx", "./src/components/newFunction.2.tsx", "./src/components/newFunction.3.tsx", "./src/components/newFunction.4.tsx", "./src/components/newLocal_1.tsx"
+  ],
+  "include": [
+    "src"
+  ]
+}
