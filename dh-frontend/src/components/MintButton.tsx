@@ -104,11 +104,16 @@ function newFunction_4(state: TransactionStatus) {
       return newFunction_1();
 
       function newFunction_1() {
-        const newLocal_1 = state.status != "PendingSignature";
+        const newLocal_2 = "PendingSignature";
+        const newLocal_1 = newFunction_3(newLocal_2);
         const newLocal = newLocal_1;
         return newLocal;
       }
     }
+  }
+
+  function newFunction_3(newLocal_2: string) {
+    return state.status != newLocal_2;
   }
 }
 
