@@ -21,7 +21,7 @@
     "noEmit": true
   },
   "files": [
-    "src/index.tsx"
+    "src/index.tsx", "./src/components/newFunction.tsx", "./src/components/newFunction.1.tsx", "./src/components/newFunction.2.tsx", "./src/components/newFunction.3.tsx", "./src/components/newFunction.4.tsx", "./src/components/newLocal_1.tsx"
   ],
   "include": [
     "src"
