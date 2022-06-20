@@ -205,68 +205,8 @@ export function App() {
           </section>
         </div>
       </section>
-      <section className="clickbait5 borders-bottom borders-top" id="roadmap">
-        <div className="wrapper">
-          <header>
-            <h3>Roadmap</h3>
-          </header>
-          <section className="columns">
-            <div className="column">
-              <h3>1.</h3>
-              <h2>Launch + Mint Open</h2>
-              <h1>
-                DeFi Haulers launched + opened mint on February 5th, 2022.{" "}
-              </h1>
-              <h1>
-                <br></br>1 AVAX per mint. No max per wallet.
-                <br></br>A total of 6,210 Haulers are ready to be minted into
-                existence. Full rarity breakdown, metadata, and creation process
-                information will be released shortly after mint close.
-              </h1>
-            </div>
-            <div className="column">
-              <h3>2.</h3>
-              <h2>Degen Motors</h2>
-              <h1>
-                When all 6,210 Haulers have been dispatched - Degen Motors will
-                begin accepting trade-in's. Hauler owners may choose to trade
-                any Hauler at any time in exchange for 0.5 AVAX. This is an
-                automated process in which users instantly receive the 0.5 AVAX
-                payout. Trade-In Haulers are sent directly to the scrap yard
-                (burned).
-              </h1>
-            </div>
-            <div className="column">
-              <h3>3.</h3>
-              <h2>haulers.online</h2>
-              <h1>
-                DeFi Haulers exist to serve as both collectible NFT’s and
-                playable in-game vehicles in haulers.online - a browser based,
-                multi-player, “top down” style, driving based game world. The
-                game is four months into prototyping inside Unreal Engine 5 -
-                with primary focus on core game mechanics + art direction. More
-                details TBA.
-              </h1>
-            </div>
-          </section>
-        </div>
-      </section>
-      <section className="clickbait4 borders-bottom" id="pricing">
-        <div className="wrapper">
-          <header>
-            <h3>Please note:</h3>
-          </header>
-          <section className="columns">
-            The trade-in payout fund will start with a balance of 2,000 AVAX,
-            and will operate for 60 days from time of mint close, or until the
-            2,000 AVAX balance is depleted - whichever occurs first. Any surplus
-            AVAX after 60 days will be distributed evenly amongst Hauler owners.
-            The Trade-In program will only go live if all Haulers are sold. All
-            6,210 Haulers must be sold before Degen Motors will begin accepting
-            trade-in's.
-          </section>
-        </div>
-      </section>
+    
+      
 
       <section className="clickbait3" id="about">
         <div className="wrapper">
